@@ -1,0 +1,2599 @@
+html:not([data-hokage-ready="true"]),html:not([data-hokage-ready="true"]) body,html:not([data-hokage-ready="true"]) .p-pageWrapper{background:#0b0c10!important;background-color:#0b0c10!important;color:transparent!important}
+html:not([data-hokage-ready="true"]) .block-container,html:not([data-hokage-ready="true"]) .p-body-sidebar .block,html:not([data-hokage-ready="true"]) .p-header,html:not([data-hokage-ready="true"]) .p-navSticky,html:not([data-hokage-ready="true"]) .p-sectionLinks{opacity:0!important}
+:root,html{--neon-color:#ff3333;--neon-glow:rgba(255,51,51,0.4);--nick-color:#ff3333;--nick-glow:rgba(255,51,51,0.4)}
+html[data-hokage-color*="пурпур" i]{--neon-color:#b5179e;--neon-glow:rgba(181,23,158,0.5)}
+html[data-hokage-color*="золот" i]{--neon-color:#ffcc00;--neon-glow:rgba(255,204,0,0.5)}
+html[data-hokage-color*="мятн" i]{--neon-color:#00ff66;--neon-glow:rgba(0,255,102,0.5)}
+html[data-hokage-color*="голуб" i],html[data-hokage-color*="циан" i]{--neon-color:#00f2fe;--neon-glow:rgba(0,242,244,0.5)}
+html[data-hokage-color*="розов" i]{--neon-color:#ff007f;--neon-glow:rgba(255,0,127,0.5)}
+html[data-hokage-nicks*="пурпур" i]{--nick-color:#b5179e;--nick-glow:rgba(181,23,158,0.5)}
+html[data-hokage-nicks*="золот" i]{--nick-color:#ffcc00;--nick-glow:rgba(255,204,0,0.5)}
+html[data-hokage-nicks*="мятн" i]{--nick-color:#00ff66;--nick-glow:rgba(0,255,102,0.5)}
+html[data-hokage-nicks*="голуб" i]{--nick-color:#00f2fe;--nick-glow:rgba(0,242,244,0.5)}
+html[data-hokage-nicks*="розов" i]{--nick-color:#ff007f;--nick-glow:rgba(255,0,127,0.5)}
+html[data-hokage-blur="glass"] .block-container,html[data-hokage-blur="glass"] .p-body-sidebar .block,html[data-hokage-blur="glass"] .p-header,html[data-hokage-blur="glass"] .p-navSticky,html[data-hokage-blur="glass"] .p-sectionLinks,html[data-hokage-blur="glass"] .message,html[data-hokage-blur="glass"] .message-inner{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:linear-gradient(135deg,rgba(255,255,255,0.04) 0%,rgba(255,255,255,0.01) 100%)!important;border:1px solid var(--neon-color)!important;box-shadow:0 8px 32px 0 rgba(0,0,0,0.37),0 0 12px var(--neon-glow)!important}
+html[data-hokage-blur="glass"] .block-container,html[data-hokage-blur="glass"] .p-body-sidebar .block,html[data-hokage-blur="glass"] .message,html[data-hokage-blur="glass"] .message-inner{border-radius:10px!important;overflow:hidden!important}
+a[href*="3018759/"] span,a[href*="3018759/"],[data-user-id="3018759"] .username span,[data-user-id="3018759"] .username a{background-image:linear-gradient(90deg,#ffe066 0%,#f5b041 25%,#fff 50%,#f5b041 75%,#ffe066 100%)!important;background-size:200% auto!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;animation:hokageGold 3s linear infinite!important;font-weight:900!important;filter:drop-shadow(0 0 4px rgba(245,176,65,0.6))!important}
+a[href*="3018759/"]::after,[data-user-id="3018759"] .username a::after{content:" 👑"!important;font-size:14px!important;-webkit-text-fill-color:#ffcc00!important;background:none!important;filter:drop-shadow(0 0 5px #ffcc00)!important;display:inline-block!important}
+@keyframes hokageGold{0%{background-position:0% center}100%{background-position:200% center}}
+html[data-hokage-blur="glass"] .node,html[data-hokage-blur="glass"] .structItem,html[data-hokage-blur="glass"] .p-header-logo,html[data-hokage-blur="glass"] .p-nav-list .p-navEl,html[data-hokage-blur="glass"] .p-sectionLinks-list a,html[data-hokage-blur="glass"] .p-nav-menuTrigger,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--user,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--conversations,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--alerts,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--search,html[data-hokage-blur="glass"] .p-body-sidebar .blockRow,html[data-hokage-blur="glass"] .p-body-sidebar .block-row,html[data-hokage-blur="glass"] .p-body-sidebar .memberHeader-main,html[data-hokage-blur="glass"] .message{transition:transform 0.2s cubic-bezier(0.25,1,0.5,1)!important;transform:translate3d(0,0,0)!important;will-change:transform}
+html[data-hokage-blur="glass"] .p-sectionLinks-list a{display:inline-block!important}
+html[data-hokage-blur="glass"] .node:hover,html[data-hokage-blur="glass"] .structItem:hover,html[data-hokage-blur="glass"] .p-header-logo:hover,html[data-hokage-blur="glass"] .p-nav-list .p-navEl:hover,html[data-hokage-blur="glass"] .p-sectionLinks-list a:hover,html[data-hokage-blur="glass"] .p-nav-menuTrigger:hover,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--user:hover,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--conversations:hover,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--alerts:hover,html[data-hokage-blur="glass"] .p-nav-opposite .p-navgroup-link--search:hover,html[data-hokage-blur="glass"] .p-body-sidebar .blockRow:hover,html[data-hokage-blur="glass"] .p-body-sidebar .block-row:hover,html[data-hokage-blur="glass"] .p-body-sidebar .memberHeader-main:hover,html[data-hokage-blur="glass"] .message:hover {transform:translate3d(0,-2px,0)!important;text-shadow:0 0 10px var(--neon-color)!important;background:rgba(255,255,255,0.03)!important;border-radius:6px!important;z-index:5!important}
+html[data-hokage-blur="glass"] .p-header,html[data-hokage-blur="glass"] .p-header-content,html[data-hokage-blur="glass"] .p-nav,html[data-hokage-blur="glass"] .p-nav-inner,html[data-hokage-blur="glass"] .block-body,html[data-hokage-blur="glass"] .node-body,html[data-hokage-blur="glass"] .structItemContainer,html[data-hokage-blur="glass"] .block-filterBar,html[data-hokage-blur="glass"] .block-minorHeader,html[data-hokage-blur="glass"] .p-nav-list,html[data-hokage-blur="glass"] .p-sectionLinks-list,html[data-hokage-blur="glass"] .p-body-sidebar .blockRow,html[data-hokage-blur="glass"] .p-body-sidebar .block-row,html[data-hokage-blur="glass"] .message-cell,html[data-hokage-blur="glass"] .message-main,html[data-hokage-blur="glass"] .message-content,html[data-hokage-blur="glass"] .structItem-cell,
+html[data-hokage-blur="glass"] .structItem:nth-child(even),html[data-hokage-blur="glass"] .structItem:nth-child(odd),html[data-hokage-blur="glass"] .structItem:nth-child(even) .structItem-cell,html[data-hokage-blur="glass"] .structItem:nth-child(odd) .structItem-cell,html[data-hokage-blur="glass"] .structItemContainer-group,html[data-hokage-blur="glass"] .structItemContainer-groupHeader,html[data-hokage-blur="glass"] .structItemMinorHeader,html[data-hokage-blur="glass"] .structItemContainer-groupHeader .structItemMinorHeader,html[data-hokage-blur="glass"] .structItemMinorHeader .structItem-cell,html[data-hokage-blur="glass"] .node:hover,html[data-hokage-blur="glass"] .structItem:hover .structItem-cell,html[data-hokage-blur="glass"] .structItem.is-unread .structItem-cell,html[data-hokage-blur="glass"] .structItem.is-targeted .structItem-cell,html[data-hokage-blur="glass"] .p-nav-list .p-navEl:hover .p-navEl-link,html[data-hokage-blur="glass"] .p-nav-list .p-navEl.is-selected,html[data-hokage-blur="glass"] .message:hover .message-cell,html[data-hokage-blur="glass"] .message:hover .message-inner {background:transparent!important;background-color:transparent!important;background-image:none!important;box-shadow:none!important;border:none!important}
+html[data-hokage-blur="glass"] .structItem,html[data-hokage-blur="glass"] .node,html[data-hokage-blur="glass"] .p-body-sidebar .blockRow,html[data-hokage-blur="glass"] .p-body-sidebar .block-row{border-bottom:1px solid rgba(255,255,255,0.03)!important}
+html[data-hokage-blur="glass"] .block-header{background:rgba(255,255,255,0.06)!important;border-bottom:1px solid rgba(255,255,255,0.1)!important;color:#fff!important}
+html[data-hokage-blur="glass"] .p-header-logo img,html[data-hokage-blur="glass"] .p-nav-inner .p-header-logo img {display:none!important}
+html[data-hokage-blur="glass"] .p-header-logo{display:inline-flex!important;align-items:center!important;text-decoration:none!important;min-height:48px!important;gap:10px!important}
+html[data-hokage-blur="glass"] .p-header-content .p-header-logo::before{content:"HOKAGE STYLES"!important;font-family:'Arial Black',Impact,sans-serif!important;font-size:26px!important;font-weight:900!important;letter-spacing:1px!important;text-transform:uppercase!important;background:linear-gradient(135deg,#ffe066 0%,#f5b041 50%,#c0392b 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;filter:drop-shadow(0 0 8px rgba(245,176,65,0.4))!important}
+html[data-hokage-blur="glass"] .p-header-content .p-header-logo::after{content:"\265B"!important;font-size:28px!important;color:#ffcc00!important;-webkit-text-fill-color:#ffcc00!important;background:none!important;filter:drop-shadow(0 0 8px rgba(255,204,0,0.6))!important}
+html[data-hokage-blur="glass"] .p-nav-inner .p-header-logo::before,html[data-hokage-blur="glass"] .p-nav-inner .p-header-logo::after,html[data-hokage-blur="glass"] .is-sticky .p-header-logo::before,html[data-hokage-blur="glass"] .is-sticky .p-header-logo::after{content:""!important;display:none!important}
+html[data-hokage-blur="glass"] .p-nav-inner .p-header-logo,html[data-hokage-blur="glass"] .is-sticky .p-header-logo {width:0!important;min-width:0!important;margin:0!important;padding:0!important}
+html[data-hokage-anim="stagger"] .node,html[data-hokage-anim="stagger"] .structItem,html[data-hokage-anim="stagger"] .p-body-sidebar .blockRow,html[data-hokage-anim="stagger"] .p-body-sidebar .block-row,html[data-hokage-anim="stagger"] .message{opacity:0;transform:translate3d(-25px,0,0)!important;animation:hkStgIn 0.4s cubic-bezier(0.25,1,0.5,1) forwards!important}
+html[data-hokage-anim="stagger"] .node:nth-child(1),html[data-hokage-anim="stagger"] .structItem:nth-child(1),html[data-hokage-anim="stagger"] .message:nth-child(1){animation-delay:20ms!important}
+html[data-hokage-anim="stagger"] .node:nth-child(2),html[data-hokage-anim="stagger"] .structItem:nth-child(2),html[data-hokage-anim="stagger"] .message:nth-child(2){animation-delay:50ms!important}
+html[data-hokage-anim="stagger"] .node:nth-child(3),html[data-hokage-anim="stagger"] .structItem:nth-child(3),html[data-hokage-anim="stagger"] .message:nth-child(3){animation-delay:80ms!important}
+html[data-hokage-anim="stagger"] .node:nth-child(4),html[data-hokage-anim="stagger"] .structItem:nth-child(4),html[data-hokage-anim="stagger"] .message:nth-child(4){animation-delay:110ms!important}
+html[data-hokage-anim="stagger"] .node:nth-child(5),html[data-hokage-anim="stagger"] .structItem:nth-child(5),html[data-hokage-anim="stagger"] .message:nth-child(5){animation-delay:140ms!important}
+html[data-hokage-anim="stagger"] .node:nth-child(n+6),html[data-hokage-anim="stagger"] .structItem:nth-child(n+6),html[data-hokage-anim="stagger"] .message:nth-child(n+6){animation-delay:170ms!important}
+@keyframes hkStgIn{to{opacity:1;transform:translate3d(0,0,0)!important;background:transparent!important;background-color:transparent!important;background-image:none!important}}
+
+/* === ЧИСТЫЕ ПЛАВНЫЕ АНИМАЦИИ ДВИЖЕНИЯ (В КОНЕЦ STYLE.CSS) === */
+html body .node,
+html body .structItem,
+html body .message {
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1) !important;
+    will-change: transform !important;
+}
+
+/* Выключено — стоит на месте */
+html[data-hokage-anim="off"] body .node:hover,
+html[data-hokage-anim="off"] body .structItem:hover,
+html[data-hokage-anim="off"] body .message:hover {
+    transform: none !important;
+}
+
+/* 1. Плавный подлёт вверх */
+html[data-hokage-anim="stagger"] body .node:hover,
+html[data-hokage-anim="stagger"] body .structItem:hover,
+html[data-hokage-anim="stagger"] body .message:hover {
+    transform: translate3d(0, -5px, 0) !important;
+}
+
+/* 2. Плавный сдвиг вправо */
+html[data-hokage-anim="slide"] body .node:hover,
+html[data-hokage-anim="slide"] body .structItem:hover,
+html[data-hokage-anim="slide"] body .message:hover {
+    transform: translate3d(12px, 0, 0) !important;
+}
+
+/* 3. Плавное увеличение (Zoom) */
+html[data-hokage-anim="zoom"] body .node:hover,
+html[data-hokage-anim="zoom"] body .structItem:hover,
+html[data-hokage-anim="zoom"] body .message:hover {
+    transform: scale(1.018) translate3d(0, 0, 0) !important;
+}
+
+/* 4. Плавное отдаление (Вдавливание внутрь) */
+html[data-hokage-anim="glow"] body .node:hover,
+html[data-hokage-anim="glow"] body .structItem:hover,
+html[data-hokage-anim="glow"] body .message:hover {
+    transform: scale(0.985) translate3d(0, 0, 0) !important;
+}
+
+/* 5. Плавный 3D-наклон */
+html[data-hokage-anim="tilt"] body .node:hover,
+html[data-hokage-anim="tilt"] body .structItem:hover,
+html[data-hokage-anim="tilt"] body .message:hover {
+    transform: perspective(600px) rotateX(4deg) translate3d(0, -3px, 0) !important;
+}
+
+/* 6. Плавное покачивание */
+html[data-hokage-anim="wave"] body .node:hover,
+html[data-hokage-anim="wave"] body .structItem:hover,
+html[data-hokage-anim="wave"] body .message:hover {
+    transform: rotate(-0.7deg) translate3d(4px, -3px, 0) !important;
+}
+
+/* === RGB ПЕРЕЛИВ ИНТЕРФЕЙСА (В КОНЕЦ STYLE.CSS) === */
+@keyframes hokageRgbFlow {
+    0%   { --neon-color: #ff3333; --neon-glow: rgba(255, 51, 51, 0.5); }
+    16%  { --neon-color: #ffcc00; --neon-glow: rgba(255, 204, 0, 0.5); }
+    33%  { --neon-color: #00ff66; --neon-glow: rgba(0, 255, 102, 0.5); }
+    50%  { --neon-color: #00f2fe; --neon-glow: rgba(0, 242, 254, 0.5); }
+    66%  { --neon-color: #b5179e; --neon-glow: rgba(181, 23, 158, 0.5); }
+    83%  { --neon-color: #ff007f; --neon-glow: rgba(255, 0, 127, 0.5); }
+    100% { --neon-color: #ff3333; --neon-glow: rgba(255, 51, 51, 0.5); }
+}
+
+html[data-hokage-color="rgb"] {
+    animation: hokageRgbFlow 8s linear infinite !important;
+}
+
+/* Плавность переходов для рамок и теней в RGB-режиме */
+html[data-hokage-color="rgb"] .block-container,
+html[data-hokage-color="rgb"] .p-body-sidebar .block,
+html[data-hokage-color="rgb"] .p-header,
+html[data-hokage-color="rgb"] .p-navSticky,
+html[data-hokage-color="rgb"] .p-sectionLinks,
+html[data-hokage-color="rgb"] .message,
+html[data-hokage-color="rgb"] .message-inner {
+    transition: border-color 0.5s linear, box-shadow 0.5s linear !important;
+}
+
+/* === 1. НЕОНОВЫЙ СКРОЛЛБАР (ПОЛОСА ПРОКРУТКИ) === */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+::-webkit-scrollbar-track {
+    background: #0b0c10 !important;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--neon-color, #ff3333) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px var(--neon-glow, rgba(255, 51, 51, 0.6)) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+    filter: brightness(1.25) !important;
+}
+
+/* === 2. РЕГУЛИРОВКА ПРОЗРАЧНОСТИ СТЕКЛА === */
+html[data-hokage-blur="glass"][data-hokage-alpha="clear"] .block-container,
+html[data-hokage-blur="glass"][data-hokage-alpha="clear"] .p-body-sidebar .block,
+html[data-hokage-blur="glass"][data-hokage-alpha="clear"] .message,
+html[data-hokage-blur="glass"][data-hokage-alpha="clear"] .message-inner {
+    background: rgba(10, 12, 18, 0.25) !important;
+}
+
+html[data-hokage-blur="glass"][data-hokage-alpha="dark"] .block-container,
+html[data-hokage-blur="glass"][data-hokage-alpha="dark"] .p-body-sidebar .block,
+html[data-hokage-blur="glass"][data-hokage-alpha="dark"] .message,
+html[data-hokage-blur="glass"][data-hokage-alpha="dark"] .message-inner {
+    background: rgba(10, 12, 18, 0.82) !important;
+}
+
+/* === 3. НЕОНОВЫЙ КУРСОР === */
+html[data-hokage-cursor="neon"],
+html[data-hokage-cursor="neon"] body {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='24' height='24' viewBox='0 0 24 24'><path fill='%23ffffff' stroke='%2300f2fe' stroke-width='2' d='M4 2 L20 12 L12 14 L9 21 Z'/></svg>") 4 2, auto !important;
+}
+
+html[data-hokage-cursor="neon"] a,
+html[data-hokage-cursor="neon"] button,
+html[data-hokage-cursor="neon"] .structItem,
+html[data-hokage-cursor="neon"] .node {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='26' height='26' viewBox='0 0 24 24'><circle cx='12' cy='12' r='6' fill='%23ffcc00' stroke='%23ffffff' stroke-width='2'/><circle cx='12' cy='12' r='10' fill='none' stroke='%23ffcc00' stroke-width='1.5' opacity='0.6'/></svg>") 12 12, pointer !important;
+}
+
+/* === НОВЫЕ ЦВЕТА ИНТЕРФЕЙСА (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-color*="синий" i] {
+    --neon-color: #2979ff !important;
+    --neon-glow: rgba(41, 121, 255, 0.55) !important;
+}
+
+html[data-hokage-color*="розов" i] {
+    --neon-color: #ff007f !important;
+    --neon-glow: rgba(255, 0, 127, 0.55) !important;
+}
+
+html[data-hokage-color*="оранж" i] {
+    --neon-color: #ff6d00 !important;
+    --neon-glow: rgba(255, 109, 0, 0.55) !important;
+}
+
+html[data-hokage-color*="белый" i] {
+    --neon-color: #ffffff !important;
+    --neon-glow: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* === РЕЖИМ ДЛЯ ОБЗОРОВ: КРАСИВЫЙ БЛЮР НИКОВ И АВАТАРОК === */
+html[data-hokage-review="blur"] .avatar,
+html[data-hokage-review="blur"] .avatar img,
+html[data-hokage-review="blur"] .username,
+html[data-hokage-review="blur"] .username span,
+html[data-hokage-review="blur"] a[data-xf-init="member-tooltip"],
+html[data-hokage-review="blur"] .p-navgroup-link--user .p-navgroup-linkText,
+html[data-hokage-review="hardblur"] .avatar,
+html[data-hokage-review="hardblur"] .avatar img,
+html[data-hokage-review="hardblur"] .username,
+html[data-hokage-review="hardblur"] .username span,
+html[data-hokage-review="hardblur"] a[data-xf-init="member-tooltip"],
+html[data-hokage-review="hardblur"] .p-navgroup-link--user .p-navgroup-linkText {
+    filter: blur(5px) !important;
+    -webkit-filter: blur(5px) !important;
+    transition: filter 0.25s ease !important;
+    user-select: none !important;
+}
+
+/* Плавное снятие блюра при наведении мыши (в обычном режиме обзора) */
+html[data-hokage-review="blur"] .avatar:hover,
+html[data-hokage-review="blur"] .avatar:hover img,
+html[data-hokage-review="blur"] .username:hover,
+html[data-hokage-review="blur"] .username:hover span,
+html[data-hokage-review="blur"] a[data-xf-init="member-tooltip"]:hover,
+html[data-hokage-review="blur"] .p-navgroup-link--user:hover .p-navgroup-linkText {
+    filter: blur(0px) !important;
+    -webkit-filter: blur(0px) !important;
+}
+
+/* === КОНТРОЛЬ СЕРОСТИ: ПОДВАЛ, ПЛАШКИ ПОИСКА И ЗАГЛУШКИ === */
+
+/* Режим 1: Стекло + Неоновая обводка */
+html[data-hokage-gray="glass"] .blockMessage,
+html[data-hokage-gray="glass"] .p-footer,
+html[data-hokage-gray="glass"] .p-footer-inner,
+html[data-hokage-gray="glass"] .p-footer-row,
+html[data-hokage-gray="glass"] .p-footer-row-main,
+html[data-hokage-gray="glass"] .p-footer-row-opposite,
+html[data-hokage-gray="glass"] .p-footer-copyright,
+html[data-hokage-gray="glass"] .block-footer,
+html[data-hokage-gray="glass"] .notice {
+    background: rgba(12, 14, 22, 0.35) !important;
+    background-color: rgba(12, 14, 22, 0.35) !important;
+    background-image: none !important;
+    border-color: var(--neon-color, #ff3333) !important;
+    box-shadow: 0 0 12px var(--neon-glow, rgba(255, 51, 51, 0.4)) !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="glass"] .blockMessage {
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-radius: 10px !important;
+}
+
+html[data-hokage-gray="glass"] .p-footer {
+    border-top: 1px solid var(--neon-color, #ff3333) !important;
+}
+
+/* Режим 2: Полная прозрачность (Ghost — без рамок и подложек) */
+html[data-hokage-gray="ghost"] .blockMessage,
+html[data-hokage-gray="ghost"] .p-footer,
+html[data-hokage-gray="ghost"] .p-footer-inner,
+html[data-hokage-gray="ghost"] .p-footer-row,
+html[data-hokage-gray="ghost"] .p-footer-row-main,
+html[data-hokage-gray="ghost"] .p-footer-row-opposite,
+html[data-hokage-gray="ghost"] .p-footer-copyright,
+html[data-hokage-gray="ghost"] .block-footer,
+html[data-hokage-gray="ghost"] .notice,
+html[data-hokage-gray="ghost"] .p-body-inner {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* === ФИКС ВЁРСТКИ И ПОЛНАЯ ОЧИСТКА СЕРОГО ФУТЕРА / ПОИСКА === */
+
+/* 1. Возвращаем нормальное положение верхних блоков (чиним съехавшую шапку) */
+html[data-hokage-gray="ghost"] .p-body-inner {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* 2. Убираем серый фон у всех вариантов подвала (футера) Black Russia */
+html[data-hokage-gray="glass"] .p-footer,
+html[data-hokage-gray="glass"] .p-footer-inner,
+html[data-hokage-gray="glass"] .p-footer-row,
+html[data-hokage-gray="glass"] .xb-footer,
+html[data-hokage-gray="glass"] .xb-footer--wrapper,
+html[data-hokage-gray="glass"] .xb-footer-block,
+html[data-hokage-gray="glass"] .p-footer--container,
+html[data-hokage-gray="glass"] footer {
+    background: rgba(12, 14, 22, 0.35) !important;
+    background-color: rgba(12, 14, 22, 0.35) !important;
+    background-image: none !important;
+    border-top: 1px solid var(--neon-color, #ff3333) !important;
+    box-shadow: none !important;
+}
+
+html[data-hokage-gray="ghost"] .p-footer,
+html[data-hokage-gray="ghost"] .p-footer-inner,
+html[data-hokage-gray="ghost"] .p-footer-row,
+html[data-hokage-gray="ghost"] .xb-footer,
+html[data-hokage-gray="ghost"] .xb-footer--wrapper,
+html[data-hokage-gray="ghost"] .xb-footer-block,
+html[data-hokage-gray="ghost"] .p-footer--container,
+html[data-hokage-gray="ghost"] footer {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 3. Убираем серый фон в поиске, полях ввода и плашках "Результаты не найдены" */
+html[data-hokage-gray="glass"] .blockMessage,
+html[data-hokage-gray="glass"] .block-row,
+html[data-hokage-gray="glass"] .input,
+html[data-hokage-gray="glass"] .p-navgroup-link--search,
+html[data-hokage-gray="glass"] .menu-content {
+    background: rgba(12, 14, 22, 0.45) !important;
+    background-color: rgba(12, 14, 22, 0.45) !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="ghost"] .blockMessage,
+html[data-hokage-gray="ghost"] .block-row,
+html[data-hokage-gray="ghost"] .input,
+html[data-hokage-gray="ghost"] .p-navgroup-link--search {
+    background: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+}
+
+/* === ДОБИВАЕМ ОСТАВШИЙСЯ ФОН ПОДВАЛА BLACK RUSSIA (В КОНЕЦ STYLE.CSS) === */
+
+/* Режим Стекло + Неон */
+html[data-hokage-gray="glass"] .xb-footer--custom,
+html[data-hokage-gray="glass"] .xb-footer--bottom,
+html[data-hokage-gray="glass"] .xb-footer--copyright,
+html[data-hokage-gray="glass"] .p-footer-custom,
+html[data-hokage-gray="glass"] .p-footer-bottom,
+html[data-hokage-gray="glass"] [class*="footer"] {
+    background: rgba(12, 14, 22, 0.35) !important;
+    background-color: rgba(12, 14, 22, 0.35) !important;
+    background-image: none !important;
+}
+
+/* Режим Полная прозрачность (Ghost) */
+html[data-hokage-gray="ghost"] .xb-footer--custom,
+html[data-hokage-gray="ghost"] .xb-footer--bottom,
+html[data-hokage-gray="ghost"] .xb-footer--copyright,
+html[data-hokage-gray="ghost"] .p-footer-custom,
+html[data-hokage-gray="ghost"] .p-footer-bottom,
+html[data-hokage-gray="ghost"] [class*="footer"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* === БРОНЕБОЙНЫЙ ФИКС НИЖНЕГО СЕРОГО БЛОКА BLACK RUSSIA (В КОНЕЦ STYLE.CSS) === */
+
+/* Режим Полная прозрачность (Ghost) */
+html[data-hokage-gray="ghost"] .p-bottom,
+html[data-hokage-gray="ghost"] .p-bottom-inner,
+html[data-hokage-gray="ghost"] .xb-bottom,
+html[data-hokage-gray="ghost"] .xb-bottom-inner,
+html[data-hokage-gray="ghost"] .p-pageWrapper > div:last-of-type,
+html[data-hokage-gray="ghost"] .p-pageWrapper > footer,
+html[data-hokage-gray="ghost"] .p-footer::before,
+html[data-hokage-gray="ghost"] .p-footer::after,
+html[data-hokage-gray="ghost"] [class*="footer"]::before,
+html[data-hokage-gray="ghost"] [class*="footer"]::after,
+html[data-hokage-gray="ghost"] [class*="bottom"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Режим Стекло + Неон */
+html[data-hokage-gray="glass"] .p-bottom,
+html[data-hokage-gray="glass"] .p-bottom-inner,
+html[data-hokage-gray="glass"] .xb-bottom,
+html[data-hokage-gray="glass"] .xb-bottom-inner,
+html[data-hokage-gray="glass"] .p-pageWrapper > div:last-of-type,
+html[data-hokage-gray="glass"] .p-pageWrapper > footer,
+html[data-hokage-gray="glass"] [class*="bottom"] {
+    background: rgba(12, 14, 22, 0.35) !important;
+    background-color: rgba(12, 14, 22, 0.35) !important;
+    background-image: none !important;
+    border-top: 1px solid var(--neon-color, #ff3333) !important;
+}
+
+/* === ЧИСТКА ВСПЛЫВАЮЩЕГО МЕНЮ ПРОФИЛЯ И СТРАНИЦЫ НАСТРОЕК (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Режим Стекло + Неон (glass) */
+html[data-hokage-gray="glass"] .menu-content,
+html[data-hokage-gray="glass"] .menu-header,
+html[data-hokage-gray="glass"] .menu-tabHeader,
+html[data-hokage-gray="glass"] .menu-row,
+html[data-hokage-gray="glass"] .menu-footer,
+html[data-hokage-gray="glass"] .blockLink,
+html[data-hokage-gray="glass"] .formRow > dt,
+html[data-hokage-gray="glass"] .formRow > dd,
+html[data-hokage-gray="glass"] .formSubmitRow-main,
+html[data-hokage-gray="glass"] .formSubmitRow-bar {
+    background: rgba(12, 14, 22, 0.78) !important;
+    background-color: rgba(12, 14, 22, 0.78) !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="glass"] .menu-content {
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), 0 0 15px var(--neon-glow, rgba(255, 51, 51, 0.4)) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+html[data-hokage-gray="glass"] .blockLink.is-selected,
+html[data-hokage-gray="glass"] .menu-linkRow:hover,
+html[data-hokage-gray="glass"] .blockLink:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+}
+
+/* 2. Режим Полная прозрачность (ghost) */
+html[data-hokage-gray="ghost"] .menu-content,
+html[data-hokage-gray="ghost"] .menu-header,
+html[data-hokage-gray="ghost"] .menu-tabHeader,
+html[data-hokage-gray="ghost"] .menu-row,
+html[data-hokage-gray="ghost"] .menu-footer,
+html[data-hokage-gray="ghost"] .blockLink,
+html[data-hokage-gray="ghost"] .formRow > dt,
+html[data-hokage-gray="ghost"] .formRow > dd,
+html[data-hokage-gray="ghost"] .formSubmitRow-main,
+html[data-hokage-gray="ghost"] .formSubmitRow-bar {
+    background: rgba(10, 12, 18, 0.45) !important;
+    background-color: rgba(10, 12, 18, 0.45) !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+/* Прозрачная колонка подписей в настройках профиля в режиме ghost */
+html[data-hokage-gray="ghost"] .formRow > dt,
+html[data-hokage-gray="ghost"] .formRow > dd,
+html[data-hokage-gray="ghost"] .blockLink {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+html[data-hokage-gray="ghost"] .blockLink.is-selected,
+html[data-hokage-gray="ghost"] .menu-linkRow:hover,
+html[data-hokage-gray="ghost"] .blockLink:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+}
+
+/* === ЧИСТКА РЕДАКТОРА "ОБО МНЕ", ЗАГОЛОВКОВ ФОРМЫ И КНОПКИ СОХРАНИТЬ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Текстовый редактор (Обо мне / Подпись / Создание темы) */
+html[data-hokage-gray="glass"] .fr-box,
+html[data-hokage-gray="glass"] .fr-toolbar,
+html[data-hokage-gray="glass"] .fr-wrapper,
+html[data-hokage-gray="glass"] .fr-element,
+html[data-hokage-gray="glass"] .fr-second-toolbar {
+    background: rgba(12, 14, 22, 0.45) !important;
+    background-color: rgba(12, 14, 22, 0.45) !important;
+    background-image: none !important;
+    border-color: var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="ghost"] .fr-box,
+html[data-hokage-gray="ghost"] .fr-toolbar,
+html[data-hokage-gray="ghost"] .fr-wrapper,
+html[data-hokage-gray="ghost"] .fr-element,
+html[data-hokage-gray="ghost"] .fr-second-toolbar {
+    background: rgba(10, 12, 18, 0.25) !important;
+    background-color: rgba(10, 12, 18, 0.25) !important;
+    background-image: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+}
+
+/* 2. Горизонтальный заголовок "Средства коммуникаций" */
+html[data-hokage-gray="glass"] .block-formSectionHeader,
+html[data-hokage-gray="glass"] .block-formSectionHeader .block-formSectionHeader-aligner {
+    background: rgba(255, 255, 255, 0.06) !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    border-top: 1px solid var(--neon-color, #ff3333) !important;
+    border-bottom: 1px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="ghost"] .block-formSectionHeader,
+html[data-hokage-gray="ghost"] .block-formSectionHeader .block-formSectionHeader-aligner {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* 3. Нижняя серая полоса вокруг кнопки "СОХРАНИТЬ" и общий фон правой колонки */
+html[data-hokage-gray="glass"] .formSubmitRow,
+html[data-hokage-gray="glass"] .formSubmitRow-bar,
+html[data-hokage-gray="glass"] .formSubmitRow-controls,
+html[data-hokage-gray="glass"] .block-body--contained,
+html[data-hokage-gray="ghost"] .formSubmitRow,
+html[data-hokage-gray="ghost"] .formSubmitRow-bar,
+html[data-hokage-gray="ghost"] .formSubmitRow-controls,
+html[data-hokage-gray="ghost"] .block-body--contained {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* === ЧИСТКА ПУНКТОВ ЛЕВОГО МЕНЮ НАСТРОЕК (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-gray="glass"] .p-body-sideNav .blockLink,
+html[data-hokage-gray="glass"] .p-body-sideNavContent .blockLink,
+html[data-hokage-gray="glass"] .p-body-sideNav .block-body,
+html[data-hokage-gray="ghost"] .p-body-sideNav .blockLink,
+html[data-hokage-gray="ghost"] .p-body-sideNavContent .blockLink,
+html[data-hokage-gray="ghost"] .p-body-sideNav .block-body {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+/* Аккуратная подсветка только активного пункта и при наведении */
+html[data-hokage-gray="glass"] .p-body-sideNav .blockLink.is-selected,
+html[data-hokage-gray="ghost"] .p-body-sideNav .blockLink.is-selected {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+}
+
+html[data-hokage-gray="glass"] .p-body-sideNav .blockLink:hover,
+html[data-hokage-gray="ghost"] .p-body-sideNav .blockLink:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+}
+
+/* === ЧИСТКА ПЛАШКИ ЛАЙКОВ (РЕАКЦИЙ) И КОММЕНТАРИЕВ В ПРОФИЛЕ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Режим Стекло + Неон (glass) */
+html[data-hokage-gray="glass"] .reactionsBar,
+html[data-hokage-gray="glass"] .message-responseRow {
+    background: rgba(255, 255, 255, 0.04) !important;
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    background-image: none !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+/* 2. Режим Полная прозрачность (ghost) */
+html[data-hokage-gray="ghost"] .reactionsBar,
+html[data-hokage-gray="ghost"] .message-responseRow {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+/* === ЧИСТКА ЦИТАТ, СПОЙЛЕРОВ, ЗАГОЛОВКОВ И АКТИВНЫХ ЛАЙКОВ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Режим Стекло + Неон (glass) */
+html[data-hokage-gray="glass"] .bbCodeBlock,
+html[data-hokage-gray="glass"] .bbCodeBlock-title,
+html[data-hokage-gray="glass"] .bbCodeBlock-content,
+html[data-hokage-gray="glass"] .bbCodeSpoiler-content,
+html[data-hokage-gray="glass"] .reactionsBar.is-active,
+html[data-hokage-gray="glass"] .input--title {
+    background: rgba(255, 255, 255, 0.04) !important;
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    background-image: none !important;
+    border-color: var(--neon-color, #ff3333) !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="glass"] .bbCodeBlock {
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+    border-radius: 8px !important;
+}
+
+/* 2. Режим Полная прозрачность (ghost) */
+html[data-hokage-gray="ghost"] .bbCodeBlock,
+html[data-hokage-gray="ghost"] .bbCodeBlock-title,
+html[data-hokage-gray="ghost"] .bbCodeBlock-content,
+html[data-hokage-gray="ghost"] .bbCodeSpoiler-content,
+html[data-hokage-gray="ghost"] .reactionsBar.is-active,
+html[data-hokage-gray="ghost"] .input--title {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+html[data-hokage-gray="ghost"] .bbCodeBlock {
+    border-left: 3px solid var(--neon-color, #ff3333) !important;
+}
+
+/* === ФИНАЛЬНАЯ ПОЛИРОВКА СТРАНИЦЫ ТЕМЫ И НИЖНИХ КАРТОЧЕК (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Убираем серый фон у хлебных крошек, статуса закрытой темы, колонки автора и блока "Поделиться" */
+html[data-hokage-gray="glass"] .p-breadcrumbs,
+html[data-hokage-gray="glass"] .blockStatus,
+html[data-hokage-gray="glass"] .message-cell--user,
+html[data-hokage-gray="glass"] .shareButtons,
+html[data-hokage-gray="glass"] .p-body-header {
+    background: rgba(12, 14, 22, 0.35) !important;
+    background-color: rgba(12, 14, 22, 0.35) !important;
+    background-image: none !important;
+    border-color: var(--neon-color, #ff3333) !important;
+    box-shadow: none !important;
+}
+
+html[data-hokage-gray="ghost"] .p-breadcrumbs,
+html[data-hokage-gray="ghost"] .blockStatus,
+html[data-hokage-gray="ghost"] .message-cell--user,
+html[data-hokage-gray="ghost"] .shareButtons,
+html[data-hokage-gray="ghost"] .p-body-header {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none !important;
+}
+
+/* Убираем серый треугольник-стрелку возле аватарки автора */
+html[data-hokage-gray="glass"] .message-userArrow,
+html[data-hokage-gray="ghost"] .message-userArrow {
+    display: none !important;
+}
+
+/* Аккуратная неоновая рамка для плашки "В этой теме нельзя размещать новые ответы" */
+html[data-hokage-gray="glass"] .blockStatus,
+html[data-hokage-gray="ghost"] .blockStatus {
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-radius: 8px !important;
+    padding: 8px 14px !important;
+    color: #ffffff !important;
+}
+
+/* 2. Делаем красивый, ровный и дорогой вид для трёх нижних карточек (как на 3-м скриншоте) */
+html[data-hokage-gray="glass"] .xb-footer--custom .p-footer-inner,
+html[data-hokage-gray="ghost"] .xb-footer--custom .p-footer-inner,
+html[data-hokage-gray="glass"] .p-footer-row-main,
+html[data-hokage-gray="ghost"] .p-footer-row-main {
+    display: flex !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+}
+
+/* Убираем кривые двойные рамки внутри текста нижних карточек */
+html[data-hokage-gray="glass"] .xb-footer-block .block-container,
+html[data-hokage-gray="ghost"] .xb-footer-block .block-container,
+html[data-hokage-gray="glass"] .xb-footer-block .block-body,
+html[data-hokage-gray="ghost"] .xb-footer-block .block-body {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Оформляем сами 3 карточки в едином ровном стиле */
+html[data-hokage-gray="glass"] .xb-footer-block,
+html[data-hokage-gray="ghost"] .xb-footer-block {
+    background: rgba(12, 14, 22, 0.45) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-radius: 12px !important;
+    padding: 16px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), inset 0 0 10px var(--neon-glow, rgba(255, 51, 51, 0.15)) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+
+/* === УБИРАЕМ ОСТАВШИЕСЯ ТЁМНЫЕ ПОЛОСЫ ВНУТРИ ТЕМЫ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-gray="glass"] .p-breadcrumbs,
+html[data-hokage-gray="glass"] .p-breadcrumbs--container,
+html[data-hokage-gray="glass"] .blockStatus,
+html[data-hokage-gray="glass"] .message-attribution,
+html[data-hokage-gray="glass"] .message-header,
+html[data-hokage-gray="ghost"] .p-breadcrumbs,
+html[data-hokage-gray="ghost"] .p-breadcrumbs--container,
+html[data-hokage-gray="ghost"] .blockStatus,
+html[data-hokage-gray="ghost"] .message-attribution,
+html[data-hokage-gray="ghost"] .message-header {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+/* Тонкая аккуратная линия снизу у шапки сообщения вместо тёмной полосы */
+html[data-hokage-gray="glass"] .message-attribution,
+html[data-hokage-gray="ghost"] .message-attribution {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* === УБИРАЕМ ТЁМНЫЙ ФОН ВНУТРИ СООБЩЕНИЙ И ПЛАШЕК В ОБЫЧНОМ СОСТОЯНИИ (БЕЗ НАВЕДЕНИЯ) === */
+html[data-hokage-gray="glass"] .message-inner,
+html[data-hokage-gray="glass"] .message-cell,
+html[data-hokage-gray="glass"] .message-main,
+html[data-hokage-gray="glass"] .message-body,
+html[data-hokage-gray="glass"] .message-user,
+html[data-hokage-gray="glass"] .block-outer,
+html[data-hokage-gray="glass"] .p-breadcrumbs,
+html[data-hokage-gray="glass"] .blockStatus,
+html[data-hokage-gray="ghost"] .message-inner,
+html[data-hokage-gray="ghost"] .message-cell,
+html[data-hokage-gray="ghost"] .message-main,
+html[data-hokage-gray="ghost"] .message-body,
+html[data-hokage-gray="ghost"] .message-user,
+html[data-hokage-gray="ghost"] .block-outer,
+html[data-hokage-gray="ghost"] .p-breadcrumbs,
+html[data-hokage-gray="ghost"] .blockStatus {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Возвращаем лёгкое единое стекло только на саму внешнюю карточку сообщения (.message) в режиме glass */
+html[data-hokage-gray="glass"] .message {
+    background: rgba(12, 14, 22, 0.22) !important;
+}
+
+html[data-hokage-gray="ghost"] .message {
+    background: transparent !important;
+}
+
+/* === БОГАТЫЙ ВЫБОР СТИЛЕЙ ДЛЯ ЗАГОЛОВКА ТЕМЫ (В КОНЕЦ STYLE.CSS) === */
+
+/* Убираем серую полосу позади заголовка во всех режимах кроме стандарта */
+html:not([data-hokage-title="default"]) .p-body-header {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 12px 0 !important;
+}
+
+/* 1. Неоновое свечение в цвет рамок */
+html[data-hokage-title="neon"] .p-title-value {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px var(--neon-color, #ff3333), 0 0 18px var(--neon-color, #ff3333) !important;
+    border-bottom: 2px solid var(--neon-color, #ff3333) !important;
+    padding-bottom: 6px !important;
+    display: inline-block !important;
+}
+
+/* 2. Жидкое золото Hokage */
+html[data-hokage-title="gold"] .p-title-value {
+    background-image: linear-gradient(90deg, #ffe066 0%, #f5b041 25%, #ffffff 50%, #f5b041 75%, #ffe066 100%) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 3s linear infinite !important;
+    filter: drop-shadow(0 0 6px rgba(245, 176, 65, 0.5)) !important;
+    font-weight: 800 !important;
+}
+
+/* 3. RGB-перелив текста */
+html[data-hokage-title="rgb"] .p-title-value {
+    background-image: linear-gradient(90deg, #ff3333, #ffcc00, #00ff66, #00f2fe, #b5179e, #ff007f, #ff3333) !important;
+    background-size: 300% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 4s linear infinite !important;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35)) !important;
+    font-weight: 800 !important;
+}
+
+/* 4. Стеклянная VIP-карточка */
+html[data-hokage-title="vipcard"] .p-body-header {
+    background: rgba(12, 14, 22, 0.45) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-left: 5px solid var(--neon-color, #ff3333) !important;
+    border-radius: 12px !important;
+    padding: 14px 20px !important;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45), 0 0 12px var(--neon-glow, rgba(255, 51, 51, 0.3)) !important;
+    margin-bottom: 12px !important;
+}
+
+html[data-hokage-title="vipcard"] .p-title-value {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px var(--neon-glow, rgba(255, 51, 51, 0.5)) !important;
+}
+
+/* 5. Огненный градиент */
+html[data-hokage-title="fire"] .p-title-value {
+    background-image: linear-gradient(90deg, #ff2a2a 0%, #ff7b00 35%, #ffe600 50%, #ff7b00 65%, #ff2a2a 100%) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 2.5s linear infinite !important;
+    filter: drop-shadow(0 0 8px rgba(255, 80, 0, 0.6)) !important;
+    font-weight: 800 !important;
+}
+
+@keyframes hokageTitleShine {
+    0%   { background-position: 0% center; }
+    100% { background-position: 200% center; }
+}
+
+/* === ФИКС ПЛАШЕК СТАТУСА ("ВАЖНО", "НА РАССМОТРЕНИИ") И СМАЙЛИКОВ В ЗАГОЛОВКАХ === */
+html[data-hokage-title] .p-title-value .label,
+html[data-hokage-title] .p-title-value span[class*="label"] {
+    -webkit-text-fill-color: #ffffff !important;
+    color: #ffffff !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    animation: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+}
+
+/* Возвращаем нормальный цвет всем смайликам и картинкам внутри заголовка */
+html[data-hokage-title] .p-title-value img,
+html[data-hokage-title] .p-title-value .smilie,
+html[data-hokage-title] .p-title-value .emoji {
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    background: none !important;
+    animation: none !important;
+    filter: none !important;
+}
+
+/* === ВОЗВРАЩАЕМ РОДНОЙ ЦВЕТ ОБЁРНУТЫМ ЭМОДЗИ В ЗАГОЛОВКЕ === */
+html[data-hokage-title] .p-title-value .hokage-emoji {
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    background: none !important;
+    color: initial !important;
+    animation: none !important;
+    filter: none !important;
+    display: inline-block !important;
+}
+
+/* === ФИНАЛЬНЫЙ ФИКС: ПЕРЕЛИВ ТОЛЬКО НА ТЕКСТ, СМАЙЛИКИ ОСТАЮТСЯ ЦВЕТНЫМИ === */
+html[data-hokage-title="gold"] .p-title-value,
+html[data-hokage-title="rgb"] .p-title-value,
+html[data-hokage-title="fire"] .p-title-value {
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #ffffff !important;
+    animation: none !important;
+    filter: none !important;
+}
+
+/* Золото только на текст */
+html[data-hokage-title="gold"] .hokage-gradient-text {
+    background-image: linear-gradient(90deg, #ffe066 0%, #f5b041 25%, #ffffff 50%, #f5b041 75%, #ffe066 100%) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 3s linear infinite !important;
+    filter: drop-shadow(0 0 6px rgba(245, 176, 65, 0.5)) !important;
+    font-weight: 800 !important;
+}
+
+/* RGB только на текст */
+html[data-hokage-title="rgb"] .hokage-gradient-text {
+    background-image: linear-gradient(90deg, #ff3333, #ffcc00, #00ff66, #00f2fe, #b5179e, #ff007f, #ff3333) !important;
+    background-size: 300% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 4s linear infinite !important;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35)) !important;
+    font-weight: 800 !important;
+}
+
+/* Огонь только на текст */
+html[data-hokage-title="fire"] .hokage-gradient-text {
+    background-image: linear-gradient(90deg, #ff2a2a 0%, #ff7b00 35%, #ffe600 50%, #ff7b00 65%, #ff2a2a 100%) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageTitleShine 2.5s linear infinite !important;
+    filter: drop-shadow(0 0 8px rgba(255, 80, 0, 0.6)) !important;
+    font-weight: 800 !important;
+}
+
+/* Смайлики остаются абсолютно чистыми */
+html[data-hokage-title] .hokage-clean-emoji,
+html[data-hokage-title] .p-title-value img {
+    -webkit-text-fill-color: initial !important;
+    color: initial !important;
+    background: none !important;
+    filter: none !important;
+    animation: none !important;
+}
+
+/* === ФИКС ЗОЛОТОГО НИКА ПРИ НАВЕДЕНИИ И СЕРОГО ФОНА В КАРТОЧКАХ ПРОФИЛЯ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Защищаем твой золотой ник от почернения при наведении курсора (hover) */
+a[href*="3018759/"]:hover,
+a[href*="3018759/"]:hover span,
+[data-user-id="3018759"] .username:hover,
+[data-user-id="3018759"] .username:hover span,
+[data-user-id="3018759"] .username a:hover {
+    background-image: linear-gradient(90deg, #ffe066 0%, #f5b041 25%, #fff 50%, #f5b041 75%, #ffe066 100%) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* 2. Убираем серый фон и полосу "Сообщения / Реакции / Баллы" во всплывающей карточке профиля (у всех игроков) */
+html[data-hokage-gray="glass"] .memberTooltip-header,
+html[data-hokage-gray="glass"] .memberTooltip-info,
+html[data-hokage-gray="glass"] .memberTooltip-stats,
+html[data-hokage-gray="glass"] .memberTooltip-blurb,
+html[data-hokage-gray="glass"] .memberTooltip-actions,
+html[data-hokage-gray="glass"] .memberHeader-main,
+html[data-hokage-gray="glass"] .memberHeader-content {
+    background: rgba(12, 14, 22, 0.45) !important;
+    background-color: rgba(12, 14, 22, 0.45) !important;
+    background-image: none !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+}
+
+html[data-hokage-gray="ghost"] .memberTooltip-header,
+html[data-hokage-gray="ghost"] .memberTooltip-info,
+html[data-hokage-gray="ghost"] .memberTooltip-stats,
+html[data-hokage-gray="ghost"] .memberTooltip-blurb,
+html[data-hokage-gray="ghost"] .memberTooltip-actions,
+html[data-hokage-gray="ghost"] .memberHeader-main,
+html[data-hokage-gray="ghost"] .memberHeader-content {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 3. Красивая стеклянная рамка для всей всплывающей карточки */
+html[data-hokage-gray="glass"] .tooltip--member .tooltip-content,
+html[data-hokage-gray="ghost"] .tooltip--member .tooltip-content {
+    background: rgba(12, 14, 22, 0.72) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), 0 0 15px var(--neon-glow, rgba(255, 51, 51, 0.35)) !important;
+    overflow: hidden !important;
+}
+
+/* === ВОЗВРАЩАЕМ БАННЕР ПРОФИЛЯ И ЧИНИМ ЗОЛОТОЙ НИК В КАРТОЧКАХ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Возвращаем баннер (обложку) в карточке и в профиле */
+html[data-hokage-gray] .memberTooltip-header,
+html[data-hokage-gray] .memberHeader-main {
+    background-image: revert !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* Делаем саму карточку прозрачной, чтобы баннер не перекрывался тёмным стеклом */
+html[data-hokage-gray] .tooltip--member .tooltip-content {
+    background: rgba(12, 14, 22, 0.35) !important;
+}
+
+/* 2. Убираем почернение твоего ника при наведении и внутри всплывающих карточек */
+a[href*="3018759/"]:hover,
+a[href*="3018759/"]:hover *,
+.memberTooltip a[href*="3018759/"],
+.memberTooltip a[href*="3018759/"] *,
+[data-user-id="3018759"] .username:hover,
+[data-user-id="3018759"] .username:hover * {
+    -webkit-text-fill-color: #ffcc00 !important;
+    color: #ffcc00 !important;
+    background: none !important;
+    background-image: none !important;
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.8), 0 0 15px rgba(245, 176, 65, 0.6) !important;
+}
+
+/* === УБИРАЕМ РАЗМЫТИЕ (BLUR) С БАННЕРА В КАРТОЧКЕ ПРОФИЛЯ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-gray] .tooltip--member .tooltip-content,
+html[data-hokage-gray] .memberTooltip,
+html[data-hokage-gray] .memberTooltip-header,
+html[data-hokage-gray] .memberTooltip-header--withBanner {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+}
+
+/* Возвращаем чёткий рендер картинки баннера без тёмной плёнки */
+html[data-hokage-gray] .memberTooltip-header--withBanner {
+    background-color: transparent !important;
+}
+
+/* === СТИЛЬ ДЛЯ КНОПОК ("ПОДПИСАТЬСЯ", "ИГНОР", "ОТСЛЕЖИВАТЬ" И Т.Д.) === */
+
+/* 1. Режим Стекло + Неон (glass) */
+html[data-hokage-gray="glass"] .button,
+html[data-hokage-gray="glass"] a.button,
+html[data-hokage-gray="glass"] button.button {
+    background: rgba(12, 14, 22, 0.45) !important;
+    background-color: rgba(12, 14, 22, 0.45) !important;
+    background-image: none !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    box-shadow: 0 0 8px var(--neon-glow, rgba(255, 51, 51, 0.25)) !important;
+    transition: all 0.2s ease !important;
+}
+
+html[data-hokage-gray="glass"] .button:hover,
+html[data-hokage-gray="glass"] a.button:hover,
+html[data-hokage-gray="glass"] button.button:hover {
+    background: var(--neon-glow, rgba(255, 51, 51, 0.25)) !important;
+    box-shadow: 0 0 14px var(--neon-color, #ff3333) !important;
+    transform: translateY(-1px) !important;
+}
+
+/* 2. Режим Полная прозрачность (ghost) */
+html[data-hokage-gray="ghost"] .button,
+html[data-hokage-gray="ghost"] a.button,
+html[data-hokage-gray="ghost"] button.button {
+    background: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-image: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease !important;
+}
+
+html[data-hokage-gray="ghost"] .button:hover,
+html[data-hokage-gray="ghost"] a.button:hover,
+html[data-hokage-gray="ghost"] button.button:hover {
+    border-color: var(--neon-color, #ff3333) !important;
+    text-shadow: 0 0 8px var(--neon-color, #ff3333) !important;
+}
+
+/* === ФИКС ГРУППЫ КНОПОК ("ПОДПИСАТЬСЯ / + ИГНОР.") И ЧИТАЕМОСТИ СТАТИСТИКИ В КАРТОЧКЕ === */
+html[data-hokage-gray="glass"] .buttonGroup > .button,
+html[data-hokage-gray="glass"] .button.button--link,
+html[data-hokage-gray="glass"] a.button.button--link,
+html[data-hokage-gray="ghost"] .buttonGroup > .button,
+html[data-hokage-gray="ghost"] .button.button--link,
+html[data-hokage-gray="ghost"] a.button.button--link {
+    background: rgba(12, 14, 22, 0.75) !important;
+    background-color: rgba(12, 14, 22, 0.75) !important;
+    background-image: none !important;
+    border: 1px solid var(--neon-color, #ff3333) !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    margin-right: 6px !important;
+    box-shadow: 0 0 8px var(--neon-glow, rgba(255, 51, 51, 0.3)) !important;
+}
+
+html[data-hokage-gray="glass"] .buttonGroup > .button:hover,
+html[data-hokage-gray="glass"] .button.button--link:hover,
+html[data-hokage-gray="ghost"] .buttonGroup > .button:hover,
+html[data-hokage-gray="ghost"] .button.button--link:hover {
+    background: var(--neon-glow, rgba(255, 51, 51, 0.35)) !important;
+    box-shadow: 0 0 14px var(--neon-color, #ff3333) !important;
+}
+
+/* Лёгкая тёмная подложка под статистику внизу карточки, чтобы цифры не сливались с темами */
+html[data-hokage-gray] .memberTooltip-stats,
+html[data-hokage-gray] .memberTooltip-actions {
+    background: rgba(10, 12, 18, 0.72) !important;
+    background-color: rgba(10, 12, 18, 0.72) !important;
+}
+
+/* === УБИРАЕМ ТЁМНУЮ ПОДЛОЖКУ ПОД СТАТИСТИКОЙ И КНОПКАМИ В КАРТОЧКЕ === */
+html[data-hokage-gray] .memberTooltip-stats,
+html[data-hokage-gray] .memberTooltip-actions {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* === СВЕРХПЛАВНОЕ ПРИБЛИЖЕНИЕ И ГЛЯНЦЕВЫЙ БЛИК ПРИ НАВЕДЕНИИ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Базовая настройка бархатной плавности без дёрганья */
+html[data-hokage-anim="smooth-zoom"] body .node,
+html[data-hokage-anim="smooth-zoom"] body .structItem,
+html[data-hokage-anim="smooth-zoom"] body .message,
+html[data-hokage-anim="shine-zoom"] body .node,
+html[data-hokage-anim="shine-zoom"] body .structItem,
+html[data-hokage-anim="shine-zoom"] body .message {
+    position: relative !important;
+    overflow: hidden !important;
+    transform-origin: center center !important;
+    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    will-change: transform !important;
+    backface-visibility: hidden !important;
+}
+
+/* 2. Режим: Плавное приближение прямо к тебе */
+html[data-hokage-anim="smooth-zoom"] body .node:hover,
+html[data-hokage-anim="smooth-zoom"] body .structItem:hover,
+html[data-hokage-anim="smooth-zoom"] body .message:hover {
+    transform: scale(1.026) translateZ(0) !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45), 0 0 14px var(--neon-glow, rgba(255, 51, 51, 0.35)) !important;
+    border-radius: 10px !important;
+    z-index: 15 !important;
+}
+
+/* 3. Режим: Плавное приближение + Белая полоса блика слева направо */
+html[data-hokage-anim="shine-zoom"] body .node:hover,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover,
+html[data-hokage-anim="shine-zoom"] body .message:hover {
+    transform: scale(1.026) translateZ(0) !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45), 0 0 14px var(--neon-glow, rgba(255, 51, 51, 0.35)) !important;
+    border-radius: 10px !important;
+    z-index: 15 !important;
+}
+
+/* Слой самой белой полосы блика (спрятан слева до наведения) */
+html[data-hokage-anim="shine-zoom"] body .node::after,
+html[data-hokage-anim="shine-zoom"] body .structItem::after,
+html[data-hokage-anim="shine-zoom"] body .message::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -120% !important;
+    width: 65% !important;
+    height: 100% !important;
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.08) 35%,
+        rgba(255, 255, 255, 0.35) 50%,
+        rgba(255, 255, 255, 0.08) 65%,
+        rgba(255, 255, 255, 0) 100%
+    ) !important;
+    transform: skewX(-25deg) !important;
+    pointer-events: none !important;
+    transition: none !important;
+}
+
+/* Проход белой полосы слева направо при наведении курсора */
+html[data-hokage-anim="shine-zoom"] body .node:hover::after,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover::after,
+html[data-hokage-anim="shine-zoom"] body .message:hover::after {
+    left: 160% !important;
+    transition: left 0.75s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* === МЕНЮ АВТООТВЕТОВ ДЛЯ ФОРУМА (В КОНЕЦ STYLE.CSS) === */
+.hokage-reply-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 50;
+}
+
+.hokage-reply-btn {
+    background: rgba(12, 14, 22, 0.75) !important;
+    color: #ffffff !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 0 10px var(--neon-glow, rgba(0, 242, 254, 0.35)) !important;
+    padding: 6px 14px !important;
+    border-radius: 8px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+}
+
+.hokage-reply-btn:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 0 16px var(--neon-color, #00f2fe) !important;
+    background: rgba(25, 30, 48, 0.9) !important;
+}
+
+.hokage-reply-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    max-width: 94vw;
+    max-height: 82vh;
+    background: rgba(11, 13, 20, 0.94) !important;
+    backdrop-filter: blur(16px) !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.85), 0 0 25px var(--neon-glow, rgba(0, 242, 254, 0.4)) !important;
+    border-radius: 14px !important;
+    z-index: 999999 !important;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.hokage-rm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.hokage-rm-title {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.hokage-rm-nick-badge {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--neon-color, #00f2fe);
+    color: #fff;
+}
+
+.hokage-rm-close {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.hokage-rm-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.hokage-rm-tab {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #ccc;
+    padding: 6px 12px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hokage-rm-tab.active, .hokage-rm-tab:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--neon-color, #00f2fe);
+    color: #fff;
+    box-shadow: 0 0 10px var(--neon-glow, rgba(0, 242, 254, 0.3));
+}
+
+.hokage-rm-list {
+    padding: 14px 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hokage-rm-item {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 9px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hokage-rm-item:hover {
+    background: rgba(255, 255, 255, 0.09);
+    border-color: var(--neon-color, #00f2fe);
+    transform: translateX(4px);
+}
+
+.hokage-rm-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.hokage-rm-tag-ok { color: #00ff66; }
+.hokage-rm-tag-no { color: #ff4d4d; }
+.hokage-rm-tag-wait { color: #ffcc00; }
+
+.hokage-rm-item-preview {
+    font-size: 11.5px;
+    color: #9aa0b2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* === ФИНАЛЬНАЯ ЧИСТКА: ПОДПИСИ, ПАГИНАЦИЯ, ПОЛЕ ОТВЕТА И ДУБЛЬ КНОПКИ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Убираем вторую дублирующую кнопку "Автоответы", если их вставилось две подряд */
+.hokage-reply-bar + .hokage-reply-bar {
+    display: none !important;
+}
+
+/* 2. Убираем серую размытую полосу в подписи ("Развернуть / скрыть подпись пользователя") */
+html[data-hokage-gray="glass"] .message-signature,
+html[data-hokage-gray="glass"] .message-signature-expand,
+html[data-hokage-gray="glass"] .message-signature-expand::before,
+html[data-hokage-gray="glass"] .message-signature-expand::after,
+html[data-hokage-gray="ghost"] .message-signature,
+html[data-hokage-gray="ghost"] .message-signature-expand,
+html[data-hokage-gray="ghost"] .message-signature-expand::before,
+html[data-hokage-gray="ghost"] .message-signature-expand::after {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+}
+
+/* 3. Делаем кнопки страниц (1, 2, 3 ... Вперёд) прозрачными и неоновыми */
+html[data-hokage-gray="glass"] .pageNav-page,
+html[data-hokage-gray="glass"] .pageNav-jump,
+html[data-hokage-gray="ghost"] .pageNav-page,
+html[data-hokage-gray="ghost"] .pageNav-jump {
+    background: rgba(12, 14, 22, 0.45) !important;
+    background-color: rgba(12, 14, 22, 0.45) !important;
+    background-image: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+}
+
+html[data-hokage-gray="glass"] .pageNav-page.pageNav-page--current,
+html[data-hokage-gray="ghost"] .pageNav-page.pageNav-page--current {
+    border-color: var(--neon-color, #ff3333) !important;
+    box-shadow: 0 0 10px var(--neon-glow, rgba(255, 51, 51, 0.4)) !important;
+    color: var(--neon-color, #ff3333) !important;
+}
+
+/* 4. Делаем прозрачным само окно ввода текста при ответе */
+html[data-hokage-gray="glass"] .fr-box.fr-basic .fr-wrapper,
+html[data-hokage-gray="glass"] .fr-box.fr-basic .fr-element,
+html[data-hokage-gray="glass"] .fr-toolbar,
+html[data-hokage-gray="ghost"] .fr-box.fr-basic .fr-wrapper,
+html[data-hokage-gray="ghost"] .fr-box.fr-basic .fr-element,
+html[data-hokage-gray="ghost"] .fr-toolbar {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* === ДОБИВАЕМ ДУБЛЬ КНОПКИ, ЦИТАТУ В РЕДАКТОРЕ И СЕРУЮ ПОЛОСУ ПОДПИСИ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Прячем дублирующую вторую кнопку "Автоответы" внутри формы ответа */
+.message-editorWrapper .hokage-reply-bar:not(:first-of-type),
+.formRow .hokage-reply-bar:not(:first-of-type),
+.fr-box .hokage-reply-bar {
+    display: none !important;
+}
+
+/* 2. Убираем серый фон у цитаты внутри окна ответа (когда жмёшь "Ответить") */
+html[data-hokage-gray="glass"] .fr-element blockquote,
+html[data-hokage-gray="glass"] .fr-element .bbCodeBlock,
+html[data-hokage-gray="glass"] .fr-element .bbCodeBlock-title,
+html[data-hokage-gray="glass"] .fr-element .bbCodeBlock-content,
+html[data-hokage-gray="ghost"] .fr-element blockquote,
+html[data-hokage-gray="ghost"] .fr-element .bbCodeBlock,
+html[data-hokage-gray="ghost"] .fr-element .bbCodeBlock-title,
+html[data-hokage-gray="ghost"] .fr-element .bbCodeBlock-content {
+    background: rgba(255, 255, 255, 0.04) !important;
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    background-image: none !important;
+    border-color: var(--neon-color, #ff3333) !important;
+}
+
+/* 3. Убираем серую размытую полосу в подписи пользователей */
+html[data-hokage-gray] [class*="signature"],
+html[data-hokage-gray] [class*="signature"]::before,
+html[data-hokage-gray] [class*="signature"]::after,
+html[data-hokage-gray] .message-signature--expand,
+html[data-hokage-gray] .message-signature--expand::before,
+html[data-hokage-gray] .message-signature--expand::after {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: none !important;
+}
+
+/* === УБИРАЕМ СЕРУЮ ШАПКУ ЦИТАТЫ В РЕДАКТОРЕ И ДУБЛЬ КНОПКИ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-gray] .fr-element blockquote::before,
+html[data-hokage-gray] .fr-element blockquote::after,
+html[data-hokage-gray] .fr-element blockquote > div,
+html[data-hokage-gray] .fr-element blockquote > header,
+html[data-hokage-gray] .fr-element blockquote > p:first-child {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* === СТЕКЛЯННЫЕ НЕОНОВЫЕ КАПСУЛЫ ДЛЯ ПЛАШЕК РОЛЕЙ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-badges="glass-capsule"] .userBanner,
+html[data-hokage-badges="glass-capsule"] .message-userBanner,
+html[data-hokage-badges="glass-capsule"] .memberHeader-banners .userBanner,
+html[data-hokage-badges="glass-capsule"] .memberTooltip-banners .userBanner {
+    background: rgba(15, 18, 28, 0.55) !important;
+    background-image: none !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border-radius: 20px !important;
+    padding: 3px 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.4px !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 0 10px var(--neon-glow, rgba(0, 242, 254, 0.3)), inset 0 0 6px rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.4) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+/* Фирменный золотой неон для Лидеров и Команды проекта */
+html[data-hokage-badges="glass-capsule"] .userBanner--primary,
+html[data-hokage-badges="glass-capsule"] .userBanner--staff,
+html[data-hokage-badges="glass-capsule"] .userBanner--orange,
+html[data-hokage-badges="glass-capsule"] .userBanner--yellow {
+    border-color: #ffcc00 !important;
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.45), inset 0 0 6px rgba(255, 204, 0, 0.15) !important;
+    color: #ffe680 !important;
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.6) !important;
+}
+
+/* Фирменный алый неон для Администрации */
+html[data-hokage-badges="glass-capsule"] .userBanner--red,
+html[data-hokage-badges="glass-capsule"] .userBanner--admin {
+    border-color: #ff3355 !important;
+    box-shadow: 0 0 12px rgba(255, 51, 85, 0.45), inset 0 0 6px rgba(255, 51, 85, 0.15) !important;
+    color: #ff99aa !important;
+    text-shadow: 0 0 8px rgba(255, 51, 85, 0.6) !important;
+}
+
+/* Лёгкое увеличение капсулы при наведении курсора */
+html[data-hokage-badges="glass-capsule"] .userBanner:hover {
+    transform: scale(1.04) !important;
+}
+
+/* === 4 НОВЫХ СТЕКЛЯННЫХ ЭФФЕКТА И ФОКУС ЧТЕНИЯ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Матовый лёд (Frost Blur) */
+html[data-hokage-gray="frost"] .block-container,
+html[data-hokage-gray="frost"] .message,
+html[data-hokage-gray="frost"] .p-body-sidebar .block,
+html[data-hokage-gray="frost"] .menu-content {
+    background: rgba(200, 230, 255, 0.07) !important;
+    backdrop-filter: blur(18px) saturate(140%) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(140%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 0 15px rgba(255, 255, 255, 0.06) !important;
+}
+
+/* 2. Тёмный обсидиан (Глянцевое чёрное стекло) */
+html[data-hokage-gray="obsidian"] .block-container,
+html[data-hokage-gray="obsidian"] .message,
+html[data-hokage-gray="obsidian"] .p-body-sidebar .block,
+html[data-hokage-gray="obsidian"] .menu-content {
+    background: linear-gradient(145deg, rgba(8, 10, 15, 0.88) 0%, rgba(16, 20, 30, 0.78) 100%) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+/* 3. Голографическое стекло (Мягкий неоновый градиент) */
+html[data-hokage-gray="holo"] .block-container,
+html[data-hokage-gray="holo"] .message,
+html[data-hokage-gray="holo"] .p-body-sidebar .block,
+html[data-hokage-gray="holo"] .menu-content {
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.08) 0%, rgba(181, 23, 158, 0.08) 50%, rgba(255, 204, 0, 0.06) 100%) !important;
+    backdrop-filter: blur(14px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 0 20px rgba(0, 242, 254, 0.08) !important;
+}
+
+/* 4. Кибер-сетка (Микро-карбон + Неон) */
+html[data-hokage-gray="cyber"] .block-container,
+html[data-hokage-gray="cyber"] .message,
+html[data-hokage-gray="cyber"] .p-body-sidebar .block,
+html[data-hokage-gray="cyber"] .menu-content {
+    background-color: rgba(10, 12, 18, 0.65) !important;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 0) !important;
+    background-size: 14px 14px !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 0 15px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+/* Фокус чтения: мягкая подсветка активного поста при наведении мыши */
+html[data-hokage-trail="focus-ribbon"] .message {
+    transition: background 0.35s ease, box-shadow 0.35s ease !important;
+}
+
+html[data-hokage-trail="focus-ribbon"] .message:hover {
+    background: linear-gradient(90deg, var(--neon-glow, rgba(0, 242, 254, 0.12)) 0%, rgba(12, 14, 22, 0.35) 35%, rgba(12, 14, 22, 0.35) 100%) !important;
+    box-shadow: inset 4px 0 0 var(--neon-color, #00f2fe), 0 6px 24px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* === ФИКС ЧЁТКОСТИ ТЕКСТА ПРИ НАВЕДЕНИИ (УБИРАЕМ МЫЛО) === */
+html[data-hokage-anim="smooth-zoom"] body .node,
+html[data-hokage-anim="smooth-zoom"] body .structItem,
+html[data-hokage-anim="smooth-zoom"] body .message,
+html[data-hokage-anim="shine-zoom"] body .node,
+html[data-hokage-anim="shine-zoom"] body .structItem,
+html[data-hokage-anim="shine-zoom"] body .message {
+    backface-visibility: visible !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+html[data-hokage-anim="smooth-zoom"] body .node:hover,
+html[data-hokage-anim="smooth-zoom"] body .structItem:hover,
+html[data-hokage-anim="smooth-zoom"] body .message:hover,
+html[data-hokage-anim="shine-zoom"] body .node:hover,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover,
+html[data-hokage-anim="shine-zoom"] body .message:hover {
+    transform: scale(1.02) !important;
+}
+
+/* === ЖЁСТКИЙ ФИКС РЕЗКОСТИ ШРИФТА: УБИРАЕМ SCALE() ПРИ НАВЕДЕНИИ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-anim="smooth-zoom"] body .node,
+html[data-hokage-anim="smooth-zoom"] body .structItem,
+html[data-hokage-anim="smooth-zoom"] body .message,
+html[data-hokage-anim="shine-zoom"] body .node,
+html[data-hokage-anim="shine-zoom"] body .structItem,
+html[data-hokage-anim="shine-zoom"] body .message {
+    will-change: auto !important;
+    transform: none !important;
+    filter: none !important;
+    transition: box-shadow 0.35s ease, border-color 0.35s ease, background-color 0.35s ease !important;
+}
+
+html[data-hokage-anim="smooth-zoom"] body .node:hover,
+html[data-hokage-anim="smooth-zoom"] body .structItem:hover,
+html[data-hokage-anim="smooth-zoom"] body .message:hover,
+html[data-hokage-anim="shine-zoom"] body .node:hover,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover,
+html[data-hokage-anim="shine-zoom"] body .message:hover {
+    transform: none !important;
+    filter: none !important;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.5), inset 0 0 18px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+/* === ИДЕАЛЬНЫЙ ПОДЛЁТ КАРТОЧКИ ВВЕРХ БЕЗ РАЗМЫТИЯ ШРИФТА (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-anim="smooth-zoom"] body .node,
+html[data-hokage-anim="smooth-zoom"] body .structItem,
+html[data-hokage-anim="smooth-zoom"] body .message,
+html[data-hokage-anim="shine-zoom"] body .node,
+html[data-hokage-anim="shine-zoom"] body .structItem,
+html[data-hokage-anim="shine-zoom"] body .message {
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease !important;
+}
+
+html[data-hokage-anim="smooth-zoom"] body .node:hover,
+html[data-hokage-anim="smooth-zoom"] body .structItem:hover,
+html[data-hokage-anim="smooth-zoom"] body .message:hover,
+html[data-hokage-anim="shine-zoom"] body .node:hover,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover,
+html[data-hokage-anim="shine-zoom"] body .message:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55), inset 0 0 18px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+/* === МЕДЛЕННЫЙ, БАРХАТНЫЙ ПОДЛЁТ И ПЛАВНЫЙ БЛИК БЕЗ МЫЛА ТЕКСТА (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-anim="smooth-zoom"] body .node,
+html[data-hokage-anim="smooth-zoom"] body .structItem,
+html[data-hokage-anim="smooth-zoom"] body .message,
+html[data-hokage-anim="shine-zoom"] body .node,
+html[data-hokage-anim="shine-zoom"] body .structItem,
+html[data-hokage-anim="shine-zoom"] body .message {
+    transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.85s ease !important;
+}
+
+html[data-hokage-anim="smooth-zoom"] body .node:hover,
+html[data-hokage-anim="smooth-zoom"] body .structItem:hover,
+html[data-hokage-anim="smooth-zoom"] body .message:hover,
+html[data-hokage-anim="shine-zoom"] body .node:hover,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover,
+html[data-hokage-anim="shine-zoom"] body .message:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.6), inset 0 0 20px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+/* Делаем сам белый блик шире, ярче и растягиваем его проход на 1.3 секунды */
+html[data-hokage-anim="shine-zoom"] body .node::after,
+html[data-hokage-anim="shine-zoom"] body .structItem::after,
+html[data-hokage-anim="shine-zoom"] body .message::after {
+    width: 80% !important;
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.12) 35%,
+        rgba(255, 255, 255, 0.42) 50%,
+        rgba(255, 255, 255, 0.12) 65%,
+        rgba(255, 255, 255, 0) 100%
+    ) !important;
+}
+
+html[data-hokage-anim="shine-zoom"] body .node:hover::after,
+html[data-hokage-anim="shine-zoom"] body .structItem:hover::after,
+html[data-hokage-anim="shine-zoom"] body .message:hover::after {
+    left: 170% !important;
+    transition: left 1.3s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+/* === 4 НОВЫХ ЭФФЕКТА НАВЕДЕНИЯ НА ТЕМЫ БЕЗ РАЗМЫТИЯ ШРИФТА (В КОНЕЦ STYLE.CSS) === */
+
+/* Общая плавность для всех 4 новых режимов */
+html[data-hokage-anim="neon-bar"] body .node,
+html[data-hokage-anim="neon-bar"] body .structItem,
+html[data-hokage-anim="neon-bar"] body .message,
+html[data-hokage-anim="cyber-slide"] body .node,
+html[data-hokage-anim="cyber-slide"] body .structItem,
+html[data-hokage-anim="cyber-slide"] body .message,
+html[data-hokage-anim="levitate"] body .node,
+html[data-hokage-anim="levitate"] body .structItem,
+html[data-hokage-anim="levitate"] body .message,
+html[data-hokage-anim="laser-border"] body .node,
+html[data-hokage-anim="laser-border"] body .structItem,
+html[data-hokage-anim="laser-border"] body .message {
+    position: relative !important;
+    overflow: hidden !important;
+    transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.8s ease, background-color 0.8s ease !important;
+}
+
+/* 1. Всплытие + Неоновая полоса слева */
+html[data-hokage-anim="neon-bar"] body .node:hover,
+html[data-hokage-anim="neon-bar"] body .structItem:hover,
+html[data-hokage-anim="neon-bar"] body .message:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: inset 5px 0 0 var(--neon-color, #00f2fe), 0 12px 28px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* 2. Плавный выезд вправо + Двойной световой блик */
+html[data-hokage-anim="cyber-slide"] body .node:hover,
+html[data-hokage-anim="cyber-slide"] body .structItem:hover,
+html[data-hokage-anim="cyber-slide"] body .message:hover {
+    transform: translateX(10px) !important;
+    box-shadow: -6px 8px 24px rgba(0, 0, 0, 0.5), inset 0 0 16px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+html[data-hokage-anim="cyber-slide"] body .node::after,
+html[data-hokage-anim="cyber-slide"] body .structItem::after,
+html[data-hokage-anim="cyber-slide"] body .message::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -130% !important;
+    width: 90% !important;
+    height: 100% !important;
+    background: linear-gradient(
+        105deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.28) 30%,
+        transparent 45%,
+        rgba(255, 255, 255, 0.22) 60%,
+        transparent 100%
+    ) !important;
+    transform: skewX(-25deg) !important;
+    pointer-events: none !important;
+}
+
+html[data-hokage-anim="cyber-slide"] body .node:hover::after,
+html[data-hokage-anim="cyber-slide"] body .structItem:hover::after,
+html[data-hokage-anim="cyber-slide"] body .message:hover::after {
+    left: 170% !important;
+    transition: left 1.35s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+/* 3. Левитация с дышащим ореолом */
+@keyframes hokageFloatGlow {
+    0%, 100% { box-shadow: 0 12px 26px rgba(0, 0, 0, 0.55), 0 0 10px var(--neon-glow, rgba(0, 242, 254, 0.3)); }
+    50%      { box-shadow: 0 16px 34px rgba(0, 0, 0, 0.65), 0 0 22px var(--neon-color, #00f2fe); }
+}
+
+html[data-hokage-anim="levitate"] body .node:hover,
+html[data-hokage-anim="levitate"] body .structItem:hover,
+html[data-hokage-anim="levitate"] body .message:hover {
+    transform: translateY(-6px) !important;
+    animation: hokageFloatGlow 2.4s ease-in-out infinite !important;
+}
+
+/* 4. Подъём + Лазерные линии сверху и снизу от центра к краям */
+html[data-hokage-anim="laser-border"] body .node::before,
+html[data-hokage-anim="laser-border"] body .structItem::before,
+html[data-hokage-anim="laser-border"] body .message::before,
+html[data-hokage-anim="laser-border"] body .node::after,
+html[data-hokage-anim="laser-border"] body .structItem::after,
+html[data-hokage-anim="laser-border"] body .message::after {
+    content: "" !important;
+    position: absolute !important;
+    left: 50% !important;
+    width: 0 !important;
+    height: 2px !important;
+    background: var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 0 10px var(--neon-color, #00f2fe) !important;
+    transition: width 0.85s cubic-bezier(0.22, 1, 0.36, 1), left 0.85s cubic-bezier(0.22, 1, 0.36, 1) !important;
+    pointer-events: none !important;
+}
+
+html[data-hokage-anim="laser-border"] body .node::before,
+html[data-hokage-anim="laser-border"] body .structItem::before,
+html[data-hokage-anim="laser-border"] body .message::before { top: 0 !important; }
+
+html[data-hokage-anim="laser-border"] body .node::after,
+html[data-hokage-anim="laser-border"] body .structItem::after,
+html[data-hokage-anim="laser-border"] body .message::after { bottom: 0 !important; }
+
+html[data-hokage-anim="laser-border"] body .node:hover,
+html[data-hokage-anim="laser-border"] body .structItem:hover,
+html[data-hokage-anim="laser-border"] body .message:hover {
+    transform: translateY(-4px) !important;
+}
+
+html[data-hokage-anim="laser-border"] body .node:hover::before,
+html[data-hokage-anim="laser-border"] body .structItem:hover::before,
+html[data-hokage-anim="laser-border"] body .message:hover::before,
+html[data-hokage-anim="laser-border"] body .node:hover::after,
+html[data-hokage-anim="laser-border"] body .structItem:hover::after,
+html[data-hokage-anim="laser-border"] body .message:hover::after {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+/* === 5 ДИЗАЙНЕРСКИХ СТИЛЕЙ ДЛЯ КАРТОЧЕК ТЕМ И РАЗДЕЛОВ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Неоновые капсулы (Отдельные объёмные карточки с зазором) */
+html[data-hokage-card="capsule"] .structItem,
+html[data-hokage-card="capsule"] .node,
+html[data-hokage-card="capsule"] .message {
+    background: rgba(12, 15, 24, 0.52) !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    border-radius: 14px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35), inset 0 0 10px var(--neon-glow, rgba(0, 242, 254, 0.15)) !important;
+}
+
+/* 2. Кибер-акцент (Толстая светящаяся полоса слева + градиент) */
+html[data-hokage-card="cyber-left"] .structItem,
+html[data-hokage-card="cyber-left"] .node,
+html[data-hokage-card="cyber-left"] .message {
+    background: linear-gradient(90deg, var(--neon-glow, rgba(0, 242, 254, 0.18)) 0%, rgba(12, 14, 22, 0.42) 35%, rgba(12, 14, 22, 0.25) 100%) !important;
+    border: none !important;
+    border-left: 4px solid var(--neon-color, #00f2fe) !important;
+    border-radius: 6px 12px 12px 6px !important;
+    margin-bottom: 7px !important;
+    box-shadow: -3px 0 12px var(--neon-glow, rgba(0, 242, 254, 0.35)) !important;
+}
+
+/* 3. Двойной VIP-контур */
+html[data-hokage-card="double-vip"] .structItem,
+html[data-hokage-card="double-vip"] .node,
+html[data-hokage-card="double-vip"] .message {
+    background: rgba(10, 12, 20, 0.55) !important;
+    border: 1px solid var(--neon-color, #00f2fe) !important;
+    outline: 1px solid rgba(255, 255, 255, 0.18) !important;
+    outline-offset: -4px !important;
+    border-radius: 10px !important;
+    margin-bottom: 9px !important;
+    box-shadow: 0 0 14px var(--neon-glow, rgba(0, 242, 254, 0.25)) !important;
+}
+
+/* 4. Минимализм (Только парящий текст и тонкая неоновая нить снизу) */
+html[data-hokage-card="minimal-line"] .structItem,
+html[data-hokage-card="minimal-line"] .node,
+html[data-hokage-card="minimal-line"] .message {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid var(--neon-color, #00f2fe) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 4px 10px -6px var(--neon-color, #00f2fe) !important;
+    margin-bottom: 4px !important;
+}
+
+/* 5. Глубокий карбон (Плотный матовый графит с верхним стеклянным бликом) */
+html[data-hokage-card="dark-carbon"] .structItem,
+html[data-hokage-card="dark-carbon"] .node,
+html[data-hokage-card="dark-carbon"] .message {
+    background: linear-gradient(180deg, rgba(22, 26, 38, 0.85) 0%, rgba(11, 13, 20, 0.9) 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-top: 1px solid var(--neon-color, #00f2fe) !important;
+    border-radius: 10px !important;
+    margin-bottom: 8px !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+/* === БЕСЦВЕТНЫЙ РЕЖИМ РАМОК (БЕЗ НЕОНА И ОБВОДКИ) (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-color="none"] {
+    --neon-color: rgba(255, 255, 255, 0.12) !important;
+    --neon-glow: transparent !important;
+    animation: none !important;
+}
+
+html[data-hokage-color="none"] .block-container,
+html[data-hokage-color="none"] .p-body-sidebar .block,
+html[data-hokage-color="none"] .structItem,
+html[data-hokage-color="none"] .node,
+html[data-hokage-color="none"] .message,
+html[data-hokage-color="none"] .menu-content {
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+}
+
+/* === СТИЛЬ LIQUID GLASS (ЖИДКОЕ СТЕКЛО IOS) БЕЗ ЛАГОВ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-card="liquid-glass"] .structItem,
+html[data-hokage-card="liquid-glass"] .node,
+html[data-hokage-card="liquid-glass"] .message {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.13) 0%,
+        rgba(255, 255, 255, 0.04) 45%,
+        rgba(12, 16, 26, 0.48) 100%
+    ) !important;
+    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.55) !important;
+    border-radius: 18px !important;
+    margin-bottom: 10px !important;
+    box-shadow:
+        0 10px 28px rgba(0, 0, 0, 0.45),
+        inset 0 1px 1px rgba(255, 255, 255, 0.55),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.35),
+        inset 0 0 16px var(--neon-glow, rgba(0, 242, 254, 0.12)) !important;
+}
+
+/* Глянцевое преломление общих контейнеров в режиме Liquid Glass */
+html[data-hokage-card="liquid-glass"] .block-container,
+html[data-hokage-card="liquid-glass"] .p-body-sidebar .block {
+    border-radius: 20px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.45) !important;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.4) !important;
+}
+
+/* === DYNAMIC ISLAND (ПЛАВАЮЩИЙ ОСТРОВОК IOS ДЛЯ ТАЙМЕРА 72Ч) === */
+#br-topic-timer {
+    top: 10px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    background: #050608 !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    border-radius: 999px !important;
+    padding: 7px 18px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+    transition: padding 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.35s ease,
+                border-color 0.35s ease !important;
+    cursor: default !important;
+}
+
+#br-topic-timer:hover {
+    padding: 10px 26px !important;
+    border-color: var(--neon-color, #00f2fe) !important;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.9), 0 0 18px var(--neon-glow, rgba(0, 242, 254, 0.45)) !important;
+}
+
+/* === ПРЯМОЕ ПЛАВНОЕ УВЕЛИЧЕНИЕ НА ТЕБЯ БЕЗ СДВИГОВ (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-anim="direct-zoom"] body .node,
+html[data-hokage-anim="direct-zoom"] body .structItem,
+html[data-hokage-anim="direct-zoom"] body .message {
+    position: relative !important;
+    transform-origin: center center !important;
+    -webkit-font-smoothing: antialiased !important;
+    transition: transform var(--hokage-speed, 0.35s) cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+html[data-hokage-anim="direct-zoom"] body .node:hover,
+html[data-hokage-anim="direct-zoom"] body .structItem:hover,
+html[data-hokage-anim="direct-zoom"] body .message:hover {
+    transform: scale(1.022) !important;
+    z-index: 15 !important;
+}
+
+/* === ТОТАЛЬНАЯ ЗАЧИСТКА ВСЕЙ СЕРОСТИ БЕЗ РАЗМЫТИЯ И ЛАГОВ (В КОНЕЦ STYLE.CSS) === */
+html body .p-header,
+html body .p-nav,
+html body .p-nav-inner,
+html body .p-navSticky,
+html body .p-sectionLinks,
+html body .p-sectionLinks-inner,
+html body .block-header,
+html body .block-minorHeader,
+html body .p-footer,
+html body .p-footer-inner,
+html body .p-footer-row,
+html body .p-footer-copyright,
+html body .p-footer-debug,
+html body .node-body,
+html body .structItem,
+html body .block-row,
+html body .message-cell,
+html body .message-userDetails,
+html body .overlay-title,
+html body .overlay-header,
+html body .overlay-content,
+html body .overlay-footer,
+html body .formRow > dt,
+html body .formRow > dd,
+html body .formSubmitRow-bar,
+html body .formSubmitRow-controls,
+.fr-toolbar .fr-command.fr-btn:hover,
+.fr-toolbar .fr-command.fr-btn:focus,
+.fr-toolbar .fr-command.fr-btn.fr-active,
+.fr-toolbar .fr-command.fr-btn.fr-selected,
+.fr-toolbar .fr-more-toolbar,
+.fr-toolbar .fr-btn-grp,
+.fr-box.fr-basic.is-focused .fr-wrapper,
+.fr-box.fr-basic.is-focused .fr-toolbar,
+.fr-box.fr-basic .fr-element:focus {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+/* Тёмное чистое стекло для всплывающих окон и меню без мыла текста */
+html body .overlay,
+html body .menu-content,
+.fr-popup,
+.fr-dropdown-menu {
+    background: rgba(10, 12, 18, 0.94) !important;
+    background-color: rgba(10, 12, 18, 0.94) !important;
+    border: 1px solid var(--neon-color, #ffcc00) !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.85) !important;
+}
+
+/* === ПОЛНОЕ ОТКЛЮЧЕНИЕ МЫЛА В СТАРОЙ ВЕРСИИ (В КОНЕЦ STYLE.CSS) === */
+html body * {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+html body .node:hover,
+html body .structItem:hover,
+html body .message:hover {
+    transform: translateY(-4px) !important;
+}
+
+/* === ЖЁСТКОЕ УСТРАНЕНИЕ МЫЛА: ЗАПРЕТ TRANSFORM И АНИМАЦИЙ НА КАРТОЧКАХ === */
+html body .node,
+html body .node-body,
+html body .structItem,
+html body .message,
+html body .node:hover,
+html body .node-body:hover,
+html body .structItem:hover,
+html body .message:hover {
+    transform: none !important;
+    animation: none !important;
+    will-change: auto !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Вместо сдвига — плавная неоновая подсветка карточки при наведении без мыла шрифта */
+html body .node,
+html body .structItem,
+html body .message {
+    transition: border-color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+html body .node:hover,
+html body .structItem:hover,
+html body .message:hover {
+    border-color: var(--neon-color, #ffcc00) !important;
+    box-shadow: inset 0 0 18px var(--neon-glow, rgba(255, 204, 0, 0.25)) !important;
+}
+
+/* === СТИЛИ ПЕРСОНАЛЬНОГО НИКА: ОДНОТОННЫЕ И ПЕРЕЛИВАЮЩИЕСЯ ГРАДИЕНТЫ (В КОНЕЦ STYLE.CSS) === */
+@keyframes hokageNickShimmer {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hk-personal-nick {
+    font-weight: 800 !important;
+    transition: all 0.25s ease !important;
+}
+
+/* 1. Однотонные неоновые цвета */
+.hk-nick-solid-cyan   { color: #00f2fe !important; text-shadow: 0 0 10px rgba(0, 242, 254, 0.65) !important; }
+.hk-nick-solid-gold   { color: #ffcc00 !important; text-shadow: 0 0 10px rgba(255, 204, 0, 0.65) !important; }
+.hk-nick-solid-red    { color: #ff3344 !important; text-shadow: 0 0 10px rgba(255, 51, 68, 0.65) !important; }
+.hk-nick-solid-purple { color: #c77dff !important; text-shadow: 0 0 10px rgba(199, 125, 255, 0.65) !important; }
+.hk-nick-solid-mint   { color: #00ff66 !important; text-shadow: 0 0 10px rgba(0, 255, 102, 0.65) !important; }
+.hk-nick-solid-white  { color: #ffffff !important; text-shadow: 0 0 12px rgba(255, 255, 255, 0.85) !important; }
+
+/* Базовый класс для плавных переливов */
+.hk-nick-grad-dark-silver,
+.hk-nick-grad-gold-wave,
+.hk-nick-grad-cyber,
+.hk-nick-grad-fire,
+.hk-nick-grad-rgb {
+    background-size: 250% 250% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageNickShimmer 3.8s ease-in-out infinite !important;
+}
+
+/* 2. Серо-чёрный перелив (Тёмный обсидиан + стальное серебро) */
+.hk-nick-grad-dark-silver {
+    background-image: linear-gradient(90deg, #1a1d24 0%, #7d8597 25%, #e2e8f0 50%, #4a5568 75%, #1a1d24 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(200, 210, 230, 0.35)) !important;
+}
+
+/* 3. Перелив жидкого золота */
+.hk-nick-grad-gold-wave {
+    background-image: linear-gradient(90deg, #b8860b 0%, #ffd700 35%, #fff8dc 50%, #daa520 75%, #b8860b 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.45)) !important;
+}
+
+/* 4. Кибер-волна (Голубой неон + Пурпурный) */
+.hk-nick-grad-cyber {
+    background-image: linear-gradient(90deg, #00f2fe 0%, #b5179e 50%, #00f2fe 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.45)) !important;
+}
+
+/* 5. Огненный перелив (Алый + Золото) */
+.hk-nick-grad-fire {
+    background-image: linear-gradient(90deg, #ff1e42 0%, #ff9900 50%, #ff1e42 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 60, 0, 0.45)) !important;
+}
+
+/* 6. Плавный RGB-перелив */
+.hk-nick-grad-rgb {
+    background-image: linear-gradient(90deg, #ff3333, #ffcc00, #00ff66, #00f2fe, #b5179e, #ff3333) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3)) !important;
+}
+
+/* === ЖЁСТКОЕ ПЕРЕКРЫТИЕ СТАРОГО ЖЁЛТОГО НИКА: УПРАВЛЕНИЕ ТОЛЬКО ИЗ МЕНЮ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Когда в меню выбран свой стиль — сбрасываем старые жёлтые стили и фоны */
+html body a .hk-personal-nick,
+html body .username .hk-personal-nick,
+html body .hk-personal-nick {
+    background: none !important;
+    -webkit-text-fill-color: currentColor !important;
+    animation: none !important;
+    filter: none !important;
+}
+
+/* 2. Однотонные цвета (теперь не перебиваются старым жёлтым градиентом) */
+html body .hk-personal-nick.hk-nick-solid-cyan   { color: #00f2fe !important; -webkit-text-fill-color: #00f2fe !important; text-shadow: 0 0 10px rgba(0, 242, 254, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-gold   { color: #ffcc00 !important; -webkit-text-fill-color: #ffcc00 !important; text-shadow: 0 0 10px rgba(255, 204, 0, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-red    { color: #ff3344 !important; -webkit-text-fill-color: #ff3344 !important; text-shadow: 0 0 10px rgba(255, 51, 68, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-purple { color: #c77dff !important; -webkit-text-fill-color: #c77dff !important; text-shadow: 0 0 10px rgba(199, 125, 255, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-mint   { color: #00ff66 !important; -webkit-text-fill-color: #00ff66 !important; text-shadow: 0 0 10px rgba(0, 255, 102, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-white  { color: #ffffff !important; -webkit-text-fill-color: #ffffff !important; text-shadow: 0 0 12px rgba(255, 255, 255, 0.9) !important; }
+
+/* 3. Переливы с максимальным приоритетом */
+html body .hk-personal-nick.hk-nick-grad-dark-silver,
+html body .hk-personal-nick.hk-nick-grad-gold-wave,
+html body .hk-personal-nick.hk-nick-grad-cyber,
+html body .hk-personal-nick.hk-nick-grad-fire,
+html body .hk-personal-nick.hk-nick-grad-rgb {
+    background-size: 250% 250% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageNickShimmer 3.8s ease-in-out infinite !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-dark-silver {
+    background-image: linear-gradient(90deg, #1a1d24 0%, #7d8597 25%, #e2e8f0 50%, #4a5568 75%, #1a1d24 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(200, 210, 230, 0.4)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-gold-wave {
+    background-image: linear-gradient(90deg, #b8860b 0%, #ffd700 35%, #fff8dc 50%, #daa520 75%, #b8860b 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.5)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-cyber {
+    background-image: linear-gradient(90deg, #00f2fe 0%, #b5179e 50%, #00f2fe 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.5)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-fire {
+    background-image: linear-gradient(90deg, #ff1e42 0%, #ff9900 50%, #ff1e42 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 60, 0, 0.5)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-rgb {
+    background-image: linear-gradient(90deg, #ff3333, #ffcc00, #00ff66, #00f2fe, #b5179e, #ff3333) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35)) !important;
+}
+
+/* === ЗАПУСК ДВИЖЕНИЯ ГРАДИЕНТА ДЛЯ ПЕРЕЛИВАЮЩЕГОСЯ НИКА (В КОНЕЦ STYLE.CSS) === */
+@keyframes hokageNickFlow {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+html body .hk-personal-nick.hk-nick-grad-dark-silver,
+html body .hk-personal-nick.hk-nick-grad-gold-wave,
+html body .hk-personal-nick.hk-nick-grad-cyber,
+html body .hk-personal-nick.hk-nick-grad-fire,
+html body .hk-personal-nick.hk-nick-grad-rgb {
+    display: inline-block !important;
+    background-size: 300% 300% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: hokageNickFlow 3s linear infinite !important;
+}
+
+/* === ПРИНУДИТЕЛЬНЫЙ ЗАПУСК АНИМАЦИИ ПЕРЕЛИВА НИКА ВНУТРИ ССЫЛОК (В КОНЕЦ STYLE.CSS) === */
+@keyframes hokageLiquidText {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+html body a .hk-personal-nick[class*="hk-nick-grad-"],
+html body .username .hk-personal-nick[class*="hk-nick-grad-"],
+html body .hk-personal-nick[class*="hk-nick-grad-"],
+html body .hk-personal-nick[class*="hk-nick-grad-"] span {
+    display: inline-block !important;
+    background-size: 300% 100% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+    animation: hokageLiquidText 2.8s ease-in-out infinite !important;
+}
+
+/* === НОВЫЕ ОДНОТОННЫЕ ЦВЕТА И ПЕРЕЛИВЫ ДЛЯ ЛИЧНОГО НИКА (В КОНЕЦ STYLE.CSS) === */
+
+/* Новые однотонные цвета */
+html body .hk-personal-nick.hk-nick-solid-pink   { color: #ff2a85 !important; -webkit-text-fill-color: #ff2a85 !important; text-shadow: 0 0 10px rgba(255, 42, 133, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-blue   { color: #2979ff !important; -webkit-text-fill-color: #2979ff !important; text-shadow: 0 0 10px rgba(41, 121, 255, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-orange { color: #ff7b00 !important; -webkit-text-fill-color: #ff7b00 !important; text-shadow: 0 0 10px rgba(255, 123, 0, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-lime   { color: #aeea00 !important; -webkit-text-fill-color: #aeea00 !important; text-shadow: 0 0 10px rgba(174, 234, 0, 0.7) !important; }
+html body .hk-personal-nick.hk-nick-solid-peach  { color: #ff8a65 !important; -webkit-text-fill-color: #ff8a65 !important; text-shadow: 0 0 10px rgba(255, 138, 101, 0.7) !important; }
+
+/* Новые анимированные переливы */
+html body .hk-personal-nick.hk-nick-grad-black-red {
+    background-image: linear-gradient(90deg, #141418 0%, #990011 30%, #ff2a4b 50%, #7a000d 75%, #141418 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 42, 75, 0.45)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-black-purple {
+    background-image: linear-gradient(90deg, #12101c 0%, #5a189a 30%, #c77dff 50%, #3c096c 75%, #12101c 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(199, 125, 255, 0.45)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-ice-white {
+    background-image: linear-gradient(90deg, #0077b6 0%, #90e0ef 35%, #ffffff 50%, #48cae4 75%, #0077b6 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(144, 224, 239, 0.5)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-matrix {
+    background-image: linear-gradient(90deg, #081c15 0%, #1b4332 30%, #00ff66 50%, #2d6a4f 75%, #081c15 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(0, 255, 102, 0.45)) !important;
+}
+
+html body .hk-personal-nick.hk-nick-grad-sunset {
+    background-image: linear-gradient(90deg, #ff007f 0%, #ff7b00 45%, #ffd000 70%, #ff007f 100%) !important;
+    filter: drop-shadow(0 0 6px rgba(255, 123, 0, 0.45)) !important;
+}
+
+/* === ФИРМЕННЫЕ СТИЛИ РЕДУКСОВ (FORTUNA 812, VILLIAN, MADK1D, ТЁМНЫЙ ПРИНЦ) (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. FORTUNA 812 REDUX — Кровавый неон и тёмный гранат */
+html[data-hokage-redux="fortuna"] {
+    --neon-color: #ff2a4b !important;
+    --neon-glow: rgba(255, 42, 75, 0.45) !important;
+}
+html[data-hokage-redux="fortuna"] .block-header,
+html[data-hokage-redux="fortuna"] .p-title-value {
+    color: #ff4d6d !important;
+    text-shadow: 0 0 14px rgba(255, 42, 75, 0.7) !important;
+}
+html[data-hokage-redux="fortuna"] .block-container {
+    background: linear-gradient(180deg, rgba(45, 5, 12, 0.55) 0%, rgba(10, 8, 12, 0.65) 100%) !important;
+    border-color: #ff2a4b !important;
+}
+
+/* 2. VILLIAN REDUX — Мистический фиолетовый и чёрный обсидиан */
+html[data-hokage-redux="villian"] {
+    --neon-color: #b5179e !important;
+    --neon-glow: rgba(181, 23, 158, 0.45) !important;
+}
+html[data-hokage-redux="villian"] .block-header,
+html[data-hokage-redux="villian"] .p-title-value {
+    color: #e0aaff !important;
+    text-shadow: 0 0 14px rgba(199, 125, 255, 0.75) !important;
+}
+html[data-hokage-redux="villian"] .block-container {
+    background: linear-gradient(180deg, rgba(28, 10, 48, 0.55) 0%, rgba(10, 8, 16, 0.65) 100%) !important;
+    border-color: #9d4edd !important;
+}
+
+/* 3. MADK1D REDUX — Кислотный киберпанк и ледяной ток */
+html[data-hokage-redux="madk1d"] {
+    --neon-color: #00f2fe !important;
+    --neon-glow: rgba(0, 242, 254, 0.45) !important;
+}
+html[data-hokage-redux="madk1d"] .block-header,
+html[data-hokage-redux="madk1d"] .p-title-value {
+    color: #00f2fe !important;
+    text-shadow: 0 0 14px rgba(0, 242, 254, 0.8), 2px 0 0 rgba(255, 0, 128, 0.5) !important;
+}
+html[data-hokage-redux="madk1d"] .block-container {
+    background: linear-gradient(180deg, rgba(5, 32, 45, 0.55) 0%, rgba(8, 12, 20, 0.65) 100%) !important;
+    border-color: #00f2fe !important;
+}
+
+/* 4. ТЁМНЫЙ ПРИНЦ REDUX — Холодное серебро, графит и глянцевое стекло */
+html[data-hokage-redux="prince"] {
+    --neon-color: #e2e8f0 !important;
+    --neon-glow: rgba(226, 232, 240, 0.35) !important;
+}
+html[data-hokage-redux="prince"] .block-header,
+html[data-hokage-redux="prince"] .p-title-value {
+    color: #f8fafc !important;
+    text-shadow: 0 0 14px rgba(255, 255, 255, 0.6) !important;
+}
+html[data-hokage-redux="prince"] .block-container {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(10, 12, 16, 0.72) 100%) !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* === ЭКСКЛЮЗИВНЫЕ КАСТОМНЫЕ ЭФФЕКТЫ ДЛЯ КАЖДОГО РЕДУКСА (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. FORTUNA 812 REDUX: Кровавая виньетка по краям экрана + дышащий алый неон */
+@keyframes fortunaPulse {
+    0%, 100% { box-shadow: 0 0 14px rgba(255, 25, 55, 0.35), inset 0 0 12px rgba(255, 25, 55, 0.15); }
+    50%      { box-shadow: 0 0 26px rgba(255, 25, 55, 0.7), inset 0 0 20px rgba(255, 25, 55, 0.3); }
+}
+
+html[data-hokage-redux="fortuna"] body::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    pointer-events: none !important;
+    z-index: 99990 !important;
+    box-shadow: inset 0 0 95px rgba(180, 0, 20, 0.55) !important;
+}
+
+html[data-hokage-redux="fortuna"] .block-container,
+html[data-hokage-redux="fortuna"] .p-body-sidebar .block {
+    border: 1px solid #ff2a4b !important;
+    animation: fortunaPulse 3.2s ease-in-out infinite !important;
+}
+
+/* 2. VILLIAN REDUX: Мистический фиолетовый туман по краям + тёмно-аметистовые рамки */
+html[data-hokage-redux="villian"] body::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    pointer-events: none !important;
+    z-index: 99990 !important;
+    box-shadow: inset 0 0 105px rgba(100, 10, 175, 0.55) !important;
+}
+
+html[data-hokage-redux="villian"] .structItem,
+html[data-hokage-redux="villian"] .node {
+    border-left: 4px solid #c77dff !important;
+    background: linear-gradient(90deg, rgba(157, 78, 221, 0.18) 0%, rgba(10, 8, 18, 0.55) 60%) !important;
+}
+
+/* 3. MADK1D REDUX: Хроматический RGB-глитч на заголовках + ледяная кибер-виньетка */
+@keyframes madk1dGlitch {
+    0%, 92%, 100% { text-shadow: -1.5px 0 #ff007f, 1.5px 0 #00f2fe; }
+    94%           { text-shadow: -3px 0 #ff007f, 3px 0 #00f2fe; }
+    96%           { text-shadow: 2px 0 #ff007f, -2px 0 #00f2fe; }
+}
+
+html[data-hokage-redux="madk1d"] body::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    pointer-events: none !important;
+    z-index: 99990 !important;
+    box-shadow: inset 0 0 85px rgba(0, 242, 254, 0.35) !important;
+}
+
+html[data-hokage-redux="madk1d"] .block-header,
+html[data-hokage-redux="madk1d"] .p-title-value,
+html[data-hokage-redux="madk1d"] .node-title a {
+    animation: madk1dGlitch 4s infinite !important;
+}
+
+/* 4. ТЁМНЫЙ ПРИНЦ REDUX: Готическое серебро, ледяная дымка и глянцевый блик */
+html[data-hokage-redux="prince"] body::after {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    pointer-events: none !important;
+    z-index: 99990 !important;
+    box-shadow: inset 0 0 110px rgba(220, 230, 245, 0.28) !important;
+}
+
+html[data-hokage-redux="prince"] .block-container,
+html[data-hokage-redux="prince"] .p-body-sidebar .block {
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.85), inset 0 1px 1px rgba(255, 255, 255, 0.5) !important;
+}
+
+/* === ЭКРАННЫЕ ЭФФЕКТЫ ПОД АРТИСТОВ (CRT-СКАНЕР, ТУМАН, ПЛАТИНА) (В КОНЕЦ STYLE.CSS) === */
+
+/* CRT-сканлайны для Madk1d */
+html[data-hokage-artist-fx="madk1d-cyber"] body::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 242, 254, 0.03) 0px,
+        rgba(0, 242, 254, 0.03) 1px,
+        transparent 1px,
+        transparent 4px
+    ) !important;
+    pointer-events: none !important;
+    z-index: 99989 !important;
+}
+
+/* Кровавое затмение краёв для Fortuna 812 */
+html[data-hokage-artist-fx="fortuna-blood"] body::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    box-shadow: inset 0 0 110px rgba(170, 0, 20, 0.65) !important;
+    pointer-events: none !important;
+    z-index: 99989 !important;
+}
+
+/* Фиолетовая аура для Villian */
+html[data-hokage-artist-fx="villian-lightning"] body::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    box-shadow: inset 0 0 115px rgba(110, 15, 190, 0.6) !important;
+    pointer-events: none !important;
+    z-index: 99989 !important;
+}
+
+/* Платиновое сияние для Тёмного Принца */
+html[data-hokage-artist-fx="prince-ash"] body::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    box-shadow: inset 0 0 120px rgba(226, 232, 240, 0.3) !important;
+    pointer-events: none !important;
+    z-index: 99989 !important;
+}
+
+/* === КОНСТРУКТОР СВОИХ ШАБЛОНОВ В ОКНЕ АВТООТВЕТОВ (В КОНЕЦ STYLE.CSS) === */
+.hk-custom-tpl-form {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--neon-color, #ffcc00);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hk-custom-tpl-input,
+.hk-custom-tpl-area,
+.hk-custom-tpl-select {
+    width: 100%;
+    background: #0d1018 !important;
+    border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    border-radius: 7px !important;
+    padding: 8px 10px !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    font-family: inherit !important;
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.hk-custom-tpl-area {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.hk-custom-tpl-save {
+    background: var(--neon-color, #ffcc00) !important;
+    color: #080a10 !important;
+    border: none !important;
+    border-radius: 7px !important;
+    padding: 8px 12px !important;
+    font-weight: 800 !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+}
+
+.hk-custom-del-btn {
+    background: rgba(255, 77, 77, 0.15) !important;
+    border: 1px solid rgba(255, 77, 77, 0.4) !important;
+    color: #ff6b6b !important;
+    border-radius: 6px !important;
+    padding: 3px 8px !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+    float: right;
+}
+
+.hk-custom-del-btn:hover {
+    background: rgba(255, 77, 77, 0.35) !important;
+}
+
+/* === 3D-ПОДЛЁТ ТЕМЫ ПРЯМО НА ТЕБЯ ПРИ НАВЕДЕНИИ (В КОНЕЦ STYLE.CSS) === */
+
+/* 1. Задаём 3D-перспективу контейнерам списков, чтобы подлёт ощущался объёмным */
+html[data-hokage-anim="fly-towards"] .block-body,
+html[data-hokage-anim="fly-towards"] .structItemContainer {
+    perspective: 1000px !important;
+}
+
+/* 2. Исходное состояние карточки с плавной пружинной инерцией возврата */
+html[data-hokage-anim="fly-towards"] body .node,
+html[data-hokage-anim="fly-towards"] body .structItem,
+html[data-hokage-anim="fly-towards"] body .message {
+    position: relative !important;
+    transform-origin: center center !important;
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) !important;
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.4s ease !important;
+}
+
+/* 3. Плавный 3D-вылет прямо на тебя при наведении курсора */
+html[data-hokage-anim="fly-towards"] body .node:hover,
+html[data-hokage-anim="fly-towards"] body .structItem:hover,
+html[data-hokage-anim="fly-towards"] body .message:hover {
+    transform: translate3d(0, -4px, 26px) scale3d(1.022, 1.022, 1) !important;
+    border-color: var(--neon-color, #ffcc00) !important;
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.78), 0 0 18px var(--neon-glow, rgba(255, 204, 0, 0.35)) !important;
+    z-index: 25 !important;
+    transition: transform 0.42s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.42s cubic-bezier(0.16, 1, 0.3, 1),
+                border-color 0.3s ease !important;
+}
+
+/* === ЖИВЫЕ ПЛАВНЫЕ ПЕРЕЛИВЫ ВНУТРИ ОСТРОВКОВ ТЕМ (В КОНЕЦ STYLE.CSS) === */
+@keyframes hokageLiquidCardFlow {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Общие настройки объёма и скругления для переливающихся островков */
+html[data-hokage-card^="flow-"] body .structItem,
+html[data-hokage-card^="flow-"] body .node,
+html[data-hokage-card^="flow-"] body .message {
+    background-size: 260% 260% !important;
+    border-radius: 15px !important;
+    margin-bottom: 9px !important;
+    animation: hokageLiquidCardFlow 7s ease-in-out infinite !important;
+}
+
+/* 1. Красно-чёрный перелив (Fortuna 812) */
+html[data-hokage-card="flow-red-black"] body .structItem,
+html[data-hokage-card="flow-red-black"] body .node,
+html[data-hokage-card="flow-red-black"] body .message {
+    background-image: linear-gradient(125deg, rgba(10, 8, 12, 0.88) 0%, rgba(145, 10, 28, 0.58) 35%, rgba(12, 8, 12, 0.92) 65%, rgba(210, 20, 45, 0.48) 100%) !important;
+    border: 1px solid rgba(255, 42, 75, 0.55) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 18px rgba(255, 30, 60, 0.18) !important;
+}
+
+/* 2. Серо-чёрный перелив (Тёмный Принц / Obsidian) */
+html[data-hokage-card="flow-gray-black"] body .structItem,
+html[data-hokage-card="flow-gray-black"] body .node,
+html[data-hokage-card="flow-gray-black"] body .message {
+    background-image: linear-gradient(125deg, rgba(10, 12, 16, 0.9) 0%, rgba(95, 105, 122, 0.45) 35%, rgba(12, 14, 18, 0.94) 65%, rgba(180, 192, 210, 0.35) 100%) !important;
+    border: 1px solid rgba(226, 232, 240, 0.35) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.65), inset 0 0 18px rgba(255, 255, 255, 0.1) !important;
+}
+
+/* 3. Фиолетово-чёрный перелив (Villian) */
+html[data-hokage-card="flow-purple-black"] body .structItem,
+html[data-hokage-card="flow-purple-black"] body .node,
+html[data-hokage-card="flow-purple-black"] body .message {
+    background-image: linear-gradient(125deg, rgba(10, 8, 18, 0.9) 0%, rgba(105, 20, 165, 0.55) 35%, rgba(12, 8, 20, 0.94) 65%, rgba(175, 40, 210, 0.42) 100%) !important;
+    border: 1px solid rgba(199, 125, 255, 0.5) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 18px rgba(181, 23, 158, 0.18) !important;
+}
+
+/* 4. Кибер-чёрный перелив (Madk1d) */
+html[data-hokage-card="flow-cyan-black"] body .structItem,
+html[data-hokage-card="flow-cyan-black"] body .node,
+html[data-hokage-card="flow-cyan-black"] body .message {
+    background-image: linear-gradient(125deg, rgba(8, 12, 20, 0.9) 0%, rgba(0, 160, 185, 0.48) 35%, rgba(10, 14, 24, 0.94) 65%, rgba(180, 15, 110, 0.35) 100%) !important;
+    border: 1px solid rgba(0, 242, 254, 0.5) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 18px rgba(0, 242, 254, 0.16) !important;
+}
+
+/* 5. Золото-чёрный перелив (Royal) */
+html[data-hokage-card="flow-gold-black"] body .structItem,
+html[data-hokage-card="flow-gold-black"] body .node,
+html[data-hokage-card="flow-gold-black"] body .message {
+    background-image: linear-gradient(125deg, rgba(12, 10, 8, 0.9) 0%, rgba(175, 130, 15, 0.48) 35%, rgba(14, 12, 8, 0.94) 65%, rgba(255, 204, 0, 0.35) 100%) !important;
+    border: 1px solid rgba(255, 204, 0, 0.5) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 18px rgba(255, 204, 0, 0.15) !important;
+}
+
+/* === ФИКС 3D-ПОДЛЁТА: УБИРАЕМ ПРЫЖОК ВВЕРХ И ОБРЕЗКУ, ДЕЛАЕМ ЧИСТОЕ ПРИБЛИЖЕНИЕ НА ТЕБЯ === */
+
+/* 1. Разрешаем карточке выходить за пределы списка при увеличении, чтобы края не обрезались */
+html[data-hokage-anim="fly-towards"] .block-container,
+html[data-hokage-anim="fly-towards"] .block-body,
+html[data-hokage-anim="fly-towards"] .structItemContainer {
+    overflow: visible !important;
+    perspective: none !important;
+}
+
+/* 2. Убираем прыжок вверх (-4px) и задаём чистое увеличение строго из центра навстречу взгляду */
+html[data-hokage-anim="fly-towards"] body .node,
+html[data-hokage-anim="fly-towards"] body .structItem,
+html[data-hokage-anim="fly-towards"] body .message {
+    transform-origin: center center !important;
+    transform: scale(1) !important;
+    transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.3s ease !important;
+}
+
+html[data-hokage-anim="fly-towards"] body .node:hover,
+html[data-hokage-anim="fly-towards"] body .structItem:hover,
+html[data-hokage-anim="fly-towards"] body .message:hover {
+    transform: scale(1.035) !important;
+    z-index: 50 !important;
+    border-color: var(--neon-color, #ffcc00) !important;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9), 0 0 22px var(--neon-glow, rgba(255, 204, 0, 0.45)) !important;
+}
+
+/* === ОПТИМИЗАЦИЯ ПРИБЛИЖЕНИЯ БЕЗ ЛАГОВ ПРИ ДВИЖЕНИИ КУРСОРА (В КОНЕЦ STYLE.CSS) === */
+html[data-hokage-anim="fly-towards"] body .node,
+html[data-hokage-anim="fly-towards"] body .structItem,
+html[data-hokage-anim="fly-towards"] body .message {
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1) !important;
+    backface-visibility: hidden !important;
+}
+
+html[data-hokage-anim="fly-towards"] body .node:hover,
+html[data-hokage-anim="fly-towards"] body .structItem:hover,
+html[data-hokage-anim="fly-towards"] body .message:hover {
+    transform: scale3d(1.03, 1.03, 1) !important;
+    box-shadow: none !important;
+    z-index: 50 !important;
+}

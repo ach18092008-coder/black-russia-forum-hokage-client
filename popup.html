@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Hokage Customs Menu</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; width: 320px; padding: 15px; background: #0f1015; color: #fff; margin: 0; }
+    h2 { text-align: center; color: #ffcc00; margin-top: 0; font-size: 20px; text-transform: uppercase; letter-spacing: 1px; text-shadow: 0 0 10px rgba(255, 204, 0, 0.4); }
+    .section { background: #161822; border: 1px solid #2a2d3d; border-radius: 8px; padding: 12px; margin-bottom: 12px; }
+    .label { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #a0a5b5; text-transform: uppercase; }
+    select, input[type="file"] { width: 100%; padding: 8px; background: #1f2231; border: 1px solid #3a3f58; border-radius: 5px; color: #fff; box-sizing: border-box; font-size: 14px; outline: none; }
+    select:focus { border-color: #ffcc00; }
+    .btn { width: 100%; padding: 10px; background: #ffcc00; border: none; border-radius: 5px; color: #000; font-weight: bold; font-size: 15px; cursor: pointer; text-transform: uppercase; transition: background 0.2s, box-shadow 0.2s; }
+    .btn:hover { background: #ffe066; box-shadow: 0 0 15px rgba(255, 204, 0, 0.5); }
+    .btn-danger { background: #ff3333; color: #fff; margin-top: 8px; }
+    .btn-danger:hover { background: #ff5555; box-shadow: 0 0 15px rgba(255, 51, 51, 0.5); }
+    .status-msg { text-align: center; font-size: 12px; margin-top: 8px; color: #00ff66; display: none; }
+    .file-custom { cursor: pointer; display: block; text-align: center; background: #252839; border: 1px dashed #ffcc00; padding: 10px; border-radius: 5px; font-size: 13px; color: #ffcc00; }
+    .file-custom:hover { background: #2f334d; }
+  </style>
+</head>
+<body>
+
+  <h2>👑 Hokage Customs 👑</h2>
+
+  <div class="section">
+    <div class="label">📂 Фон форума (Файл / GIF)</div>
+    <label for="bg-file-input" class="file-custom">📁 Выбрать изображение...</label>
+    <input type="file" id="bg-file-input" accept="image/*" style="display: none;">
+    <div id="file-name-info" style="font-size: 11px; margin-top: 6px; color: #00ff66; text-align: center; display: none;"></div>
+  </div>
+
+  <div class="section">
+    <div class="label">💎 Эффект стекла (Glass)</div>
+    <select id="blur-toggle">
+      <option value="glass">Полупрозрачное глянцевое стекло</option>
+      <option value="off">Стандартный стиль (Выключено)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">👥 Цвет обычных игроков</div>
+    <select id="nick-mode">
+      <option value="random">🎲 Уникальный неон (Каждому свой)</option>
+      <option value="off">Обычный (Дефолтный серый)</option>
+      <option value="purpur">Магический пурпурный неон</option>
+      <option value="золот">Стандартное золото Hokage</option>
+      <option value="мятн">Мятный неоновый акцент</option>
+      <option value="голуб">Электронный голубой</option>
+      <option value="красн">Дерзкий красный тон</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🎨 Цвет подсветки рамок</div>
+    <select id="ui-color">
+      <option value="синий">💙 Глубокий синий (Сапфир)</option>
+      <option value="розов">🌸 Неоновый розовый (Киберпанк)</option>
+      <option value="оранж">🧡 Огненный оранжевый</option>
+      <option value="белый">🤍 Чистый белый (Лунный)</option>
+      <option value="rgb">🌈 RGB Перелив (Радужный неон)</option>
+      <option value="красн">Дерзкий красный тон</option>
+      <option value="пурпур">Магический пурпурный тон</option>
+      <option value="золот">Стандартное золото Hokage</option>
+      <option value="мятн">Мятный неоновый акцент</option>
+      <option value="голуб">Электронный голубой</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🎬 Подлёт списка тем</div>
+    <select id="anim-style">
+      <option value="wave">🌊 Плавное покачивание</option
+      <option value="off">Выключено (Обычный прогруз)</option>
+      <option value="stagger">Включено (Анимация подлёта)</option>
+      <option value="slide">➡️ Сдвиг вправо + Неон</option>
+      <option value="zoom">🔍 Лёгкое увеличение (Zoom)</option>
+      <option value="glow">✨ Неоновая рамка (Без сдвига)</option>
+      <option value="tilt">💎 Объёмный 3D-наклон</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🪟 Прозрачность блоков (Стекло)</div>
+    <select id="glass-alpha">
+      <option value="default">Стандартная (Как сейчас)</option>
+      <option value="clear">Почти прозрачная (Видно весь фон)</option>
+      <option value="dark">Затемнённая (Удобно читать текст)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🖱️ Неоновый курсор</div>
+    <select id="custom-cursor">
+      <option value="off">Стандартный курсор Windows</option>
+      <option value="neon">✨ Светящийся неоновый курсор</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🎥 Режим для обзоров (Блюр ников и аватарок)</div>
+    <select id="review-mode">
+      <option value="off">Выключено (Всё видно)</option>
+      <option value="blur">🔒 Включено (Красивый блюр + показ при наведении)</option>
+      <option value="hardblur">🛡️ Жёсткий блюр (Не показывать даже при наведении)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🧹 Контроль серости (Подвал и плашки)</div>
+    <select id="gray-control">
+      <option value="default">Стандарт (Как на сайте)</option>
+      <option value="glass">💎 Стекло + Неон (Просвечивает фон)</option>
+      <option value="ghost">👻 Полная прозрачность (Только текст)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">🏷️ Стиль заголовка темы</div>
+    <select id="title-style">
+      <option value="default">Стандарт (Обычный белый)</option>
+      <option value="neon">✨ Неоновое свечение (В цвет рамок)</option>
+      <option value="gold">👑 Жидкое золото Hokage</option>
+      <option value="rgb">🌈 RGB-перелив текста</option>
+      <option value="vipcard">💎 Стеклянная VIP-карточка</option>
+      <option value="fire">🔥 Огненный градиент</option>
+    </select>
+  </div>
+
+
+  <button id="save-btn" class="btn">Применить настройки</button>
+  <button id="reset-bg-btn" class="btn btn-danger">Сбросить фон</button>
+
+  <div id="status" class="status-msg">⚡ Настройки успешно применены!</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
